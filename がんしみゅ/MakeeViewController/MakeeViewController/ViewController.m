@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  がんしみゅ
+//  MakeeViewController
 //
-//  Created by 陸 野口 on 2013/12/04.
-//  Copyright (c) 2013年 陸 野口. All rights reserved.
+//  Created by 陸 野口 on 2014/05/06.
+//  Copyright (c) 2014年 陸 野口. All rights reserved.
 //
 
 #import "ViewController.h"
