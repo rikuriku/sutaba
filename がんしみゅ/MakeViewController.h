@@ -10,4 +10,9 @@
 
 @interface MakeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *makenameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *makeImageView;
+
+@property NSString *nameText;
+
 @end

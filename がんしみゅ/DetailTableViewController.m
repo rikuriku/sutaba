@@ -8,8 +8,12 @@
 
 #import "DetailTableViewController.h"
 #import "DescriptionViewController.h"
+#import "BaseTableViewController.h"
 
 @implementation DetailTableViewController
+
+
+
 
 -(void)viewDidLoad{
     NSLog(@"%@",self.nameText);
@@ -126,5 +130,6 @@
     descriptionVC.nameText = nameText;
     [self.navigationController pushViewController:descriptionVC animated:YES];
 }
+
 
 @end

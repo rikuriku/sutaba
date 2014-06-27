@@ -14,7 +14,12 @@
 
 - (void)viewDidLoad
 {
+ 
+    
     [super viewDidLoad];
+    
+    self.makenameLabel.text = self.nameText;
+    self.makeImageView.image= [UIImage imageNamed:self.nameText];
 }
 
 
