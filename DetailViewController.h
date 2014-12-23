@@ -11,6 +11,6 @@
 @interface DetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
-@property NSString *nameText;
+@property (weak, nonatomic) NSString *menuName;
 
 @end

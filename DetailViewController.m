@@ -9,9 +9,10 @@
 #import "DetailViewController.h"
 
 @implementation DetailViewController
+@synthesize menuName = _menuName;
 
 - (void)viewDidLoad{
-    self.nameLabel.text = self.nameText;
+    self.nameLabel.text = self.menuName;
 }
 
 @end

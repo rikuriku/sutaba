@@ -10,8 +10,15 @@
 
 @interface DetailTableViewController : UITableViewController{
     NSArray *dataArray;
+    NSArray *moneyArray;
+    NSArray *imageArray;
+    
 }
 
-@property NSString *nameText;
+@property (weak, nonatomic) NSString *menuName;
+
+
+
+
 
 @end

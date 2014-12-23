@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2578D219AB2158000FB129 /* オレオフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2578D119AB2158000FB129 /* オレオフラペチーノ.png */; };
+		1D25994C19C2F911006B4B5E /* ニューヨークノンスウィートラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25994B19C2F911006B4B5E /* ニューヨークノンスウィートラテ.png */; };
+		1D25994E19C2FA47006B4B5E /* スターバックスティラミス.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25994D19C2FA47006B4B5E /* スターバックスティラミス.png */; };
+		1D25995219C2FBF3006B4B5E /* ホットベーグルサンドベーコン＆エッグ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995119C2FBF3006B4B5E /* ホットベーグルサンドベーコン＆エッグ.png */; };
+		1D25995419C3094C006B4B5E /* コーヒー抹茶クリームフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995319C3094C006B4B5E /* コーヒー抹茶クリームフラペチーノ.png */; };
+		1D25995619C30A75006B4B5E /* ホワイトチョコレート　モカフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995519C30A75006B4B5E /* ホワイトチョコレート　モカフラペチーノ.png */; };
+		1D25995819C30B52006B4B5E /* 不思議と桃の味がするフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995719C30B52006B4B5E /* 不思議と桃の味がするフラペチーノ.png */; };
+		1D25995A19C30C52006B4B5E /* ノンホイップ・アーモンド・ソイ・モカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995919C30C52006B4B5E /* ノンホイップ・アーモンド・ソイ・モカ.png */; };
+		1D25995C19C30E23006B4B5E /* ハニーミルクラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995B19C30E23006B4B5E /* ハニーミルクラテ.png */; };
+		1D25995E19C310DB006B4B5E /* ココアカプチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995D19C310DB006B4B5E /* ココアカプチーノ.png */; };
+		1D25996019C31191006B4B5E /* ゼブラマキアート.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D25995F19C31191006B4B5E /* ゼブラマキアート.png */; };
+		1D349AE318694DD80049FCA7 /* sukiru.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1D349AE218694DD80049FCA7 /* sukiru.csv */; };
+		1D349AE618694E830049FCA7 /* setumei.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D349AE518694E830049FCA7 /* setumei.m */; };
+		1D3AD45B1914DF87003550F9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3AD45A1914DF87003550F9 /* DetailViewController.m */; };
+		1D89093119D6D11A0049B442 /* ソイラテ　カロリー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D89093019D6D11A0049B442 /* ソイラテ　カロリー.png */; };
+		1D89093319D6D2920049B442 /* バニララテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D89093219D6D2920049B442 /* バニララテ.png */; };
+		1D89093519D6D3680049B442 /* ジェイソンスペシャル.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D89093419D6D3680049B442 /* ジェイソンスペシャル.png */; };
+		1D92CE49198F642F0010BD50 /* ura-Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D92CE48198F642F0010BD50 /* ura-Menu.plist */; };
+		1D94D9D818CB0098002DEEC9 /* 20130907_mh4_monsho.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D94D9D718CB0098002DEEC9 /* 20130907_mh4_monsho.png */; };
+		1D9C25521915DEAE008107A9 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C25511915DEAE008107A9 /* DetailTableViewController.m */; };
+		1D9C255519162025008107A9 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C255419162025008107A9 /* DescriptionViewController.m */; };
+		1D9C255A191681B2008107A9 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D9C2559191681B2008107A9 /* Menu.plist */; };
+		1D9C26801987595A00C0DF0B /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C267F1987595A00C0DF0B /* TableCell.m */; };
+		1DB5A4811915CCA2003BB0B1 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5A4801915CCA2003BB0B1 /* BaseTableViewController.m */; };
+		1DCAC9C8184F43F200E1ACF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCAC9C7184F43F200E1ACF1 /* UIKit.framework */; };
+		1DCAC9CA184F43F200E1ACF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCAC9C9184F43F200E1ACF1 /* Foundation.framework */; };
+		1DCAC9CC184F43F200E1ACF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCAC9CB184F43F200E1ACF1 /* CoreGraphics.framework */; };
+		1DCAC9D2184F43F200E1ACF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAC9D0184F43F200E1ACF1 /* InfoPlist.strings */; };
+		1DCAC9D4184F43F200E1ACF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAC9D3184F43F200E1ACF1 /* main.m */; };
+		1DCAC9D8184F43F200E1ACF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAC9D7184F43F200E1ACF1 /* AppDelegate.m */; };
+		1DCAC9DA184F43F200E1ACF1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAC9D9184F43F200E1ACF1 /* Default.png */; };
+		1DCAC9DC184F43F200E1ACF1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAC9DB184F43F200E1ACF1 /* Default@2x.png */; };
+		1DCAC9DE184F43F200E1ACF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAC9DD184F43F200E1ACF1 /* Default-568h@2x.png */; };
+		1DCAC9E1184F43F200E1ACF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAC9DF184F43F200E1ACF1 /* MainStoryboard.storyboard */; };
+		1DCAC9EC184F43F200E1ACF1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCAC9EB184F43F200E1ACF1 /* SenTestingKit.framework */; };
+		1DCAC9ED184F43F200E1ACF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCAC9C7184F43F200E1ACF1 /* UIKit.framework */; };
+		1DCAC9EE184F43F200E1ACF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCAC9C9184F43F200E1ACF1 /* Foundation.framework */; };
+		1DCAC9F6184F43F200E1ACF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAC9F4184F43F200E1ACF1 /* InfoPlist.strings */; };
+		1DCAC9F9184F43F200E1ACF1 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAC9F8184F43F200E1ACF1 /* ______Tests.m */; };
+		1DCF5AAC19172B1900CDC2AA /* lifeistech.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF5AAB19172B1900CDC2AA /* lifeistech.png */; };
+		1DDBA10A19CC490C008BE2A2 /* チャンキークッキーコーヒージェリーフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBA10919CC490C008BE2A2 /* チャンキークッキーコーヒージェリーフラペチーノ.png */; };
+		1DDBFBD5199DA08F009D1DCF /* ダークモカチップクリームフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBD4199DA08F009D1DCF /* ダークモカチップクリームフラペチーノ.png */; };
+		1DDBFBD7199DA0A1009D1DCF /* チャンキークッキーフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBD6199DA0A1009D1DCF /* チャンキークッキーフラペチーノ.png */; };
+		1DDBFBD9199DA0AE009D1DCF /* バニラクリームフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBD8199DA0AE009D1DCF /* バニラクリームフラペチーノ.png */; };
+		1DDBFBDB199DA0BB009D1DCF /* 抹茶 クリーム フラペチーノ®.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBDA199DA0BB009D1DCF /* 抹茶 クリーム フラペチーノ®.png */; };
+		1DDBFBDD199DA0C0009D1DCF /* マンゴーパッションティーフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBDC199DA0C0009D1DCF /* マンゴーパッションティーフラペチーノ.png */; };
+		1DDBFBDF199DA0ED009D1DCF /* コーヒー　プレス.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBDE199DA0ED009D1DCF /* コーヒー　プレス.png */; };
+		1DDBFBE1199DA0FE009D1DCF /* ドリップ コーヒー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBE0199DA0FE009D1DCF /* ドリップ コーヒー.png */; };
+		1DDBFBE3199DA119009D1DCF /* ホット ティー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBE2199DA119009D1DCF /* ホット ティー.png */; };
+		1DDBFBE5199DA136009D1DCF /* デビルズケーキ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBE4199DA136009D1DCF /* デビルズケーキ.png */; };
+		1DDBFBE7199DA164009D1DCF /* アメリカンワッフル.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBE6199DA164009D1DCF /* アメリカンワッフル.png */; };
+		1DDBFBE9199DA1ED009D1DCF /* カフェモカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBE8199DA1ED009D1DCF /* カフェモカ.png */; };
+		1DDBFBEC199DA5A5009D1DCF /* スタバ　ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBEB199DA5A5009D1DCF /* スタバ　ロゴ.png */; };
+		1DDBFBEE199DA8F4009D1DCF /* ポットサービス.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFBED199DA8F4009D1DCF /* ポットサービス.png */; };
+		1DDBFCEE199DAC7E009D1DCF /* be juicy! kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFC99199DAC7E009D1DCF /* be juicy! kids.png */; };
+		1DDBFCEF199DAC7E009D1DCF /* BLT＆エッグ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFC9A199DAC7E009D1DCF /* BLT＆エッグ.png */; };
+		1DDBFCF0199DAC7E009D1DCF /* Coffee&Espresso キャラメルマキアート.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFC9B199DAC7E009D1DCF /* Coffee&Espresso キャラメルマキアート.png */; };
+		1DDBFCF1199DAC7E009D1DCF /* Coffee&Espresso カフェモカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFC9C199DAC7E009D1DCF /* Coffee&Espresso カフェモカ.png */; };
+		1DDBFCF3199DAC7E009D1DCF /* Coffee&Espresso レモン.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFC9E199DAC7E009D1DCF /* Coffee&Espresso レモン.png */; };
+		1DDBFCF4199DAC7E009D1DCF /* アイスティー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFC9F199DAC7E009D1DCF /* アイスティー.png */; };
+		1DDBFCF5199DAC7E009D1DCF /* アイスコーヒー with サマージェリー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA0199DAC7E009D1DCF /* アイスコーヒー with サマージェリー.png */; };
+		1DDBFCF6199DAC7E009D1DCF /* アメリカンワッフル.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA1199DAC7E009D1DCF /* アメリカンワッフル.png */; };
+		1DDBFCF7199DAC7E009D1DCF /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA2199DAC7E009D1DCF /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.png */; };
+		1DDBFCF8199DAC7E009D1DCF /* エスプレッソ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA3199DAC7E009D1DCF /* エスプレッソ.png */; };
+		1DDBFCF9199DAC7E009D1DCF /* エスプレッソコンパナ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA4199DAC7E009D1DCF /* エスプレッソコンパナ.png */; };
+		1DDBFCFA199DAC7E009D1DCF /* エスプレッソマキアート.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA5199DAC7E009D1DCF /* エスプレッソマキアート.png */; };
+		1DDBFCFB199DAC7E009D1DCF /* エスプレッソフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA6199DAC7E009D1DCF /* エスプレッソフラペチーノ.png */; };
+		1DDBFCFC199DAC7E009D1DCF /* カフェアメリカーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA7199DAC7E009D1DCF /* カフェアメリカーノ.png */; };
+		1DDBFCFD199DAC7E009D1DCF /* カフェ モカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA8199DAC7E009D1DCF /* カフェ モカ.png */; };
+		1DDBFCFE199DAC7E009D1DCF /* カフェミスト.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCA9199DAC7E009D1DCF /* カフェミスト.png */; };
+		1DDBFCFF199DAC7E009D1DCF /* カプチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCAA199DAC7E009D1DCF /* カプチーノ.png */; };
+		1DDBFD00199DAC7E009D1DCF /* キッズ ビバレッジ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCAB199DAC7E009D1DCF /* キッズ ビバレッジ.png */; };
+		1DDBFD01199DAC7E009D1DCF /* キャラメルスチーマー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCAC199DAC7E009D1DCF /* キャラメルスチーマー.png */; };
+		1DDBFD02199DAC7E009D1DCF /* キャラメルマキアート.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCAD199DAC7E009D1DCF /* キャラメルマキアート.png */; };
+		1DDBFD03199DAC7E009D1DCF /* キャラメルソースをかけたカフェモカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCAE199DAC7E009D1DCF /* キャラメルソースをかけたカフェモカ.png */; };
+		1DDBFD04199DAC7E009D1DCF /* キャラメルフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCAF199DAC7E009D1DCF /* キャラメルフラペチーノ.png */; };
+		1DDBFD05199DAC7E009D1DCF /* キャラメルポップコーン＆プレッツェル.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB0199DAC7E009D1DCF /* キャラメルポップコーン＆プレッツェル.png */; };
+		1DDBFD06199DAC7E009D1DCF /* グラノラ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB1199DAC7E009D1DCF /* グラノラ.png */; };
+		1DDBFD07199DAC7E009D1DCF /* クロワッサンハム＆チーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB2199DAC7E009D1DCF /* クロワッサンハム＆チーズ.png */; };
+		1DDBFD08199DAC7E009D1DCF /* コーヒープレス.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB3199DAC7E009D1DCF /* コーヒープレス.png */; };
+		1DDBFD09199DAC7E009D1DCF /* コーヒーフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB4199DAC7E009D1DCF /* コーヒーフラペチーノ.png */; };
+		1DDBFD0A199DAC7E009D1DCF /* ココア.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB5199DAC7E009D1DCF /* ココア.png */; };
+		1DDBFD0B199DAC7E009D1DCF /* サラダラップ（根菜チキン）.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB6199DAC7E009D1DCF /* サラダラップ（根菜チキン）.png */; };
+		1DDBFD0C199DAC7E009D1DCF /* サラダラップ15品目メキシカンアボカド.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB7199DAC7E009D1DCF /* サラダラップ15品目メキシカンアボカド.png */; };
+		1DDBFD0D199DAC7E009D1DCF /* サラダラップ チキンシーザー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB8199DAC7E009D1DCF /* サラダラップ チキンシーザー.png */; };
+		1DDBFD0E199DAC7E009D1DCF /* シアトルラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCB9199DAC7E009D1DCF /* シアトルラテ.png */; };
+		1DDBFD0F199DAC7E009D1DCF /* シーザーサラダ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCBA199DAC7E009D1DCF /* シーザーサラダ.png */; };
+		1DDBFD10199DAC7E009D1DCF /* シナモンロール.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCBB199DAC7E009D1DCF /* シナモンロール.png */; };
+		1DDBFD11199DAC7E009D1DCF /* シュガードーナツ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCBC199DAC7E009D1DCF /* シュガードーナツ.png */; };
+		1DDBFD12199DAC7E009D1DCF /* スターバックスティーラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCBD199DAC7E009D1DCF /* スターバックスティーラテ.png */; };
+		1DDBFD14199DAC7E009D1DCF /* スターバックスラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCBF199DAC7E009D1DCF /* スターバックスラテ.png */; };
+		1DDBFD15199DAC7E009D1DCF /* スターバックスリザーブクローバー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC0199DAC7E009D1DCF /* スターバックスリザーブクローバー.png */; };
+		1DDBFD16199DAC7E009D1DCF /* スターバックスリザーブコーヒープレス.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC1199DAC7E009D1DCF /* スターバックスリザーブコーヒープレス.png */; };
+		1DDBFD17199DAC7E009D1DCF /* ソイラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC2199DAC7E009D1DCF /* ソイラテ.png */; };
+		1DDBFD18199DAC7E009D1DCF /* ソーセージパイ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC3199DAC7E009D1DCF /* ソーセージパイ.png */; };
+		1DDBFD19199DAC7E009D1DCF /* ターキースイス＆ツナサラダ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC4199DAC7E009D1DCF /* ターキースイス＆ツナサラダ.png */; };
+		1DDBFD1A199DAC7E009D1DCF /* ダークモカチップクリームフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC5199DAC7E009D1DCF /* ダークモカチップクリームフラペチーノ.png */; };
+		1DDBFD1B199DAC7E009D1DCF /* チキンとチーズのタルティーヌ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC6199DAC7E009D1DCF /* チキンとチーズのタルティーヌ.png */; };
+		1DDBFD1C199DAC7E009D1DCF /* チャイティーラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC7199DAC7E009D1DCF /* チャイティーラテ.png */; };
+		1DDBFD1D199DAC7E009D1DCF /* チャンキークッキーフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC8199DAC7E009D1DCF /* チャンキークッキーフラペチーノ.png */; };
+		1DDBFD1E199DAC7E009D1DCF /* チョコレートチャンククッキー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCC9199DAC7E009D1DCF /* チョコレートチャンククッキー.png */; };
+		1DDBFD1F199DAC7E009D1DCF /* チョコレートチャンクスコーン.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCCA199DAC7E009D1DCF /* チョコレートチャンクスコーン.png */; };
+		1DDBFD20199DAC7E009D1DCF /* チョコレートブラウニー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCCB199DAC7E009D1DCF /* チョコレートブラウニー.png */; };
+		1DDBFD21199DAC7E009D1DCF /* デビルズケーキ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCCC199DAC7E009D1DCF /* デビルズケーキ.png */; };
+		1DDBFD22199DAC7E009D1DCF /* ドリップコーヒー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCCD199DAC7E009D1DCF /* ドリップコーヒー.png */; };
+		1DDBFD24199DAC7E009D1DCF /* ニューヨークチーズケーキ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCCF199DAC7E009D1DCF /* ニューヨークチーズケーキ.png */; };
+		1DDBFD25199DAC7E009D1DCF /* バジルチキン＆アボカドシュリンプ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD0199DAC7E009D1DCF /* バジルチキン＆アボカドシュリンプ.png */; };
+		1DDBFD26199DAC7E009D1DCF /* バターミルクビスケット.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD1199DAC7E009D1DCF /* バターミルクビスケット.png */; };
+		1DDBFD27199DAC7E009D1DCF /* バターリッチマフィン.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD2199DAC7E009D1DCF /* バターリッチマフィン.png */; };
+		1DDBFD28199DAC7E009D1DCF /* バナナブレッド.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD3199DAC7E009D1DCF /* バナナブレッド.png */; };
+		1DDBFD29199DAC7E009D1DCF /* ハニーワッフル.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD4199DAC7E009D1DCF /* ハニーワッフル.png */; };
+		1DDBFD2A199DAC7E009D1DCF /* バニラクリームフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD5199DAC7E009D1DCF /* バニラクリームフラペチーノ.png */; };
+		1DDBFD2B199DAC7E009D1DCF /* フィローネハム＆マリボーチーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD6199DAC7E009D1DCF /* フィローネハム＆マリボーチーズ.png */; };
+		1DDBFD2C199DAC7E009D1DCF /* フルーツジュースオレンジ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD7199DAC7E009D1DCF /* フルーツジュースオレンジ.png */; };
+		1DDBFD2D199DAC7E009D1DCF /* フルーツジュースグレープフルーツ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD8199DAC7E009D1DCF /* フルーツジュースグレープフルーツ.png */; };
+		1DDBFD2E199DAC7E009D1DCF /* フルーツジュースダブルスクイーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCD9199DAC7E009D1DCF /* フルーツジュースダブルスクイーズ.png */; };
+		1DDBFD2F199DAC7E009D1DCF /* ブルーベリー＆チーズクリームドーナツ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCDA199DAC7E009D1DCF /* ブルーベリー＆チーズクリームドーナツ.png */; };
+		1DDBFD30199DAC7E009D1DCF /* ブルーベリースコーン.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCDB199DAC7E009D1DCF /* ブルーベリースコーン.png */; };
+		1DDBFD31199DAC7E009D1DCF /* ブルーベリーマフィン.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCDC199DAC7E009D1DCF /* ブルーベリーマフィン.png */; };
+		1DDBFD32199DAC7E009D1DCF /* ブルーベリーレアチーズパイ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCDD199DAC7E009D1DCF /* ブルーベリーレアチーズパイ.png */; };
+		1DDBFD33199DAC7E009D1DCF /* ベーグルサンドサーモン＆クリームチーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCDE199DAC7E009D1DCF /* ベーグルサンドサーモン＆クリームチーズ.png */; };
+		1DDBFD34199DAC7E009D1DCF /* ベーグルサンドハム＆チーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCDF199DAC7E009D1DCF /* ベーグルサンドハム＆チーズ.png */; };
+		1DDBFD35199DAC7E009D1DCF /* ベーコンとほうれん草のキッシュ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE0199DAC7E009D1DCF /* ベーコンとほうれん草のキッシュ.png */; };
+		1DDBFD36199DAC7E009D1DCF /* ホットティー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE1199DAC7E009D1DCF /* ホットティー.png */; };
+		1DDBFD38199DAC7E009D1DCF /* ホワイトモカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE3199DAC7E009D1DCF /* ホワイトモカ.png */; };
+		1DDBFD39199DAC7E009D1DCF /* ホワイトチョコレートマカダミアクッキー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE4199DAC7E009D1DCF /* ホワイトチョコレートマカダミアクッキー.png */; };
+		1DDBFD3A199DAC7E009D1DCF /* マンゴーシフォンケーキ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE5199DAC7E009D1DCF /* マンゴーシフォンケーキ.png */; };
+		1DDBFD3B199DAC7E009D1DCF /* マンゴーパッションティーフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE6199DAC7E009D1DCF /* マンゴーパッションティーフラペチーノ.png */; };
+		1DDBFD3C199DAC7E009D1DCF /* ミックスサンドイッチ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE7199DAC7E009D1DCF /* ミックスサンドイッチ.png */; };
+		1DDBFD3D199DAC7E009D1DCF /* ミラノエスプレッソ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE8199DAC7E009D1DCF /* ミラノエスプレッソ.png */; };
+		1DDBFD3E199DAC7E009D1DCF /* レモンポピーシードスコーン.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCE9199DAC7E009D1DCF /* レモンポピーシードスコーン.png */; };
+		1DDBFD3F199DAC7E009D1DCF /* 夏野菜とベーコンのタルティーヌ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCEA199DAC7E009D1DCF /* 夏野菜とベーコンのタルティーヌ.png */; };
+		1DDBFD40199DAC7E009D1DCF /* 京都抹茶ラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCEB199DAC7E009D1DCF /* 京都抹茶ラテ.png */; };
+		1DDBFD41199DAC7E009D1DCF /* 抹茶クリームフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCEC199DAC7E009D1DCF /* 抹茶クリームフラペチーノ.png */; };
+		1DDBFD42199DAC7E009D1DCF /* 抹茶ティーラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBFCED199DAC7E009D1DCF /* 抹茶ティーラテ.png */; };
+		1DE6F89019CC4DB100A3C240 /* ヘーゼルナッツカフェアメリカーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE6F88F19CC4DB100A3C240 /* ヘーゼルナッツカフェアメリカーノ.png */; };
+		1DFC4EE519AB0A9300BC7C78 /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DFC4EE419AB0A9300BC7C78 /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg */; };
+		D76781E9199CE96000A512EA /* カフェミスト.png in Resources */ = {isa = PBXBuildFile; fileRef = D76781E5199CE96000A512EA /* カフェミスト.png */; };
+		D76781EA199CE96000A512EA /* キャラメルフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = D76781E6199CE96000A512EA /* キャラメルフラペチーノ.png */; };
+		D76781EE199CF34D00A512EA /* SecretMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76781ED199CF34D00A512EA /* SecretMenuViewController.m */; };
+		D778DE51199D859100B1275D /* ホワイトチョコレートモカフラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = D778DE50199D859100B1275D /* ホワイトチョコレートモカフラペチーノ.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DCAC9EF184F43F200E1ACF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DCAC9BC184F43F200E1ACF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DCAC9C3184F43F200E1ACF1;
+			remoteInfo = "がんしみゅ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D2578D119AB2158000FB129 /* オレオフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "オレオフラペチーノ.png"; sourceTree = "<group>"; };
+		1D25994B19C2F911006B4B5E /* ニューヨークノンスウィートラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ニューヨークノンスウィートラテ.png"; sourceTree = "<group>"; };
+		1D25994D19C2FA47006B4B5E /* スターバックスティラミス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スターバックスティラミス.png"; sourceTree = "<group>"; };
+		1D25995119C2FBF3006B4B5E /* ホットベーグルサンドベーコン＆エッグ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホットベーグルサンドベーコン＆エッグ.png"; sourceTree = "<group>"; };
+		1D25995319C3094C006B4B5E /* コーヒー抹茶クリームフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コーヒー抹茶クリームフラペチーノ.png"; sourceTree = "<group>"; };
+		1D25995519C30A75006B4B5E /* ホワイトチョコレート　モカフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホワイトチョコレート　モカフラペチーノ.png"; sourceTree = "<group>"; };
+		1D25995719C30B52006B4B5E /* 不思議と桃の味がするフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不思議と桃の味がするフラペチーノ.png"; sourceTree = "<group>"; };
+		1D25995919C30C52006B4B5E /* ノンホイップ・アーモンド・ソイ・モカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ノンホイップ・アーモンド・ソイ・モカ.png"; sourceTree = "<group>"; };
+		1D25995B19C30E23006B4B5E /* ハニーミルクラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハニーミルクラテ.png"; sourceTree = "<group>"; };
+		1D25995D19C310DB006B4B5E /* ココアカプチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ココアカプチーノ.png"; sourceTree = "<group>"; };
+		1D25995F19C31191006B4B5E /* ゼブラマキアート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゼブラマキアート.png"; sourceTree = "<group>"; };
+		1D349AE218694DD80049FCA7 /* sukiru.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sukiru.csv; sourceTree = "<group>"; };
+		1D349AE418694E830049FCA7 /* setumei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setumei.h; sourceTree = "<group>"; };
+		1D349AE518694E830049FCA7 /* setumei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setumei.m; sourceTree = "<group>"; };
+		1D3AD4591914DF87003550F9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		1D3AD45A1914DF87003550F9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		1D89093019D6D11A0049B442 /* ソイラテ　カロリー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ソイラテ　カロリー.png"; sourceTree = "<group>"; };
+		1D89093219D6D2920049B442 /* バニララテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バニララテ.png"; sourceTree = "<group>"; };
+		1D89093419D6D3680049B442 /* ジェイソンスペシャル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ジェイソンスペシャル.png"; sourceTree = "<group>"; };
+		1D89906D186913590070D348 /* sukirukennsaku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sukirukennsaku.h; path = ../sukirukennsaku.h; sourceTree = "<group>"; };
+		1D92CE48198F642F0010BD50 /* ura-Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ura-Menu.plist"; sourceTree = "<group>"; };
+		1D94D9D718CB0098002DEEC9 /* 20130907_mh4_monsho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20130907_mh4_monsho.png; sourceTree = "<group>"; };
+		1D9C25501915DEAE008107A9 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		1D9C25511915DEAE008107A9 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		1D9C255319162025008107A9 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		1D9C255419162025008107A9 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		1D9C2559191681B2008107A9 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
+		1D9C267E1987595A00C0DF0B /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		1D9C267F1987595A00C0DF0B /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		1DB5A47F1915CCA2003BB0B1 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		1DB5A4801915CCA2003BB0B1 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		1DCAC9C4184F43F200E1ACF1 /* スタバ メニュー.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "スタバ メニュー.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCAC9C7184F43F200E1ACF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DCAC9C9184F43F200E1ACF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DCAC9CB184F43F200E1ACF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DCAC9CF184F43F200E1ACF1 /* スタバ メニュー-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "スタバ メニュー-Info.plist"; sourceTree = "<group>"; };
+		1DCAC9D1184F43F200E1ACF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DCAC9D3184F43F200E1ACF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DCAC9D5184F43F200E1ACF1 /* スタバ メニュー-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "スタバ メニュー-Prefix.pch"; sourceTree = "<group>"; };
+		1DCAC9D6184F43F200E1ACF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DCAC9D7184F43F200E1ACF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DCAC9D9184F43F200E1ACF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1DCAC9DB184F43F200E1ACF1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1DCAC9DD184F43F200E1ACF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DCAC9E0184F43F200E1ACF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1DCAC9EA184F43F200E1ACF1 /* スタバ メニューTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "スタバ メニューTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCAC9EB184F43F200E1ACF1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1DCAC9F3184F43F200E1ACF1 /* スタバ メニューTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "スタバ メニューTests-Info.plist"; sourceTree = "<group>"; };
+		1DCAC9F5184F43F200E1ACF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DCAC9F7184F43F200E1ACF1 /* ______Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "______Tests.h"; sourceTree = "<group>"; };
+		1DCAC9F8184F43F200E1ACF1 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		1DCF5AAB19172B1900CDC2AA /* lifeistech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeistech.png; sourceTree = "<group>"; };
+		1DDBA10919CC490C008BE2A2 /* チャンキークッキーコーヒージェリーフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チャンキークッキーコーヒージェリーフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFBD4199DA08F009D1DCF /* ダークモカチップクリームフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ダークモカチップクリームフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFBD6199DA0A1009D1DCF /* チャンキークッキーフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チャンキークッキーフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFBD8199DA0AE009D1DCF /* バニラクリームフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バニラクリームフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFBDA199DA0BB009D1DCF /* 抹茶 クリーム フラペチーノ®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抹茶 クリーム フラペチーノ®.png"; sourceTree = "<group>"; };
+		1DDBFBDC199DA0C0009D1DCF /* マンゴーパッションティーフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "マンゴーパッションティーフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFBDE199DA0ED009D1DCF /* コーヒー　プレス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コーヒー　プレス.png"; sourceTree = "<group>"; };
+		1DDBFBE0199DA0FE009D1DCF /* ドリップ コーヒー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ドリップ コーヒー.png"; sourceTree = "<group>"; };
+		1DDBFBE2199DA119009D1DCF /* ホット ティー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホット ティー.png"; sourceTree = "<group>"; };
+		1DDBFBE4199DA136009D1DCF /* デビルズケーキ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デビルズケーキ.png"; sourceTree = "<group>"; };
+		1DDBFBE6199DA164009D1DCF /* アメリカンワッフル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アメリカンワッフル.png"; sourceTree = "<group>"; };
+		1DDBFBE8199DA1ED009D1DCF /* カフェモカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カフェモカ.png"; sourceTree = "<group>"; };
+		1DDBFBEB199DA5A5009D1DCF /* スタバ　ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スタバ　ロゴ.png"; sourceTree = "<group>"; };
+		1DDBFBED199DA8F4009D1DCF /* ポットサービス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ポットサービス.png"; path = "../ポットサービス.png"; sourceTree = "<group>"; };
+		1DDBFC99199DAC7E009D1DCF /* be juicy! kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "be juicy! kids.png"; sourceTree = "<group>"; };
+		1DDBFC9A199DAC7E009D1DCF /* BLT＆エッグ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BLT＆エッグ.png"; sourceTree = "<group>"; };
+		1DDBFC9B199DAC7E009D1DCF /* Coffee&Espresso キャラメルマキアート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coffee&Espresso キャラメルマキアート.png"; sourceTree = "<group>"; };
+		1DDBFC9C199DAC7E009D1DCF /* Coffee&Espresso カフェモカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coffee&Espresso カフェモカ.png"; sourceTree = "<group>"; };
+		1DDBFC9E199DAC7E009D1DCF /* Coffee&Espresso レモン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coffee&Espresso レモン.png"; sourceTree = "<group>"; };
+		1DDBFC9F199DAC7E009D1DCF /* アイスティー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アイスティー.png"; sourceTree = "<group>"; };
+		1DDBFCA0199DAC7E009D1DCF /* アイスコーヒー with サマージェリー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アイスコーヒー with サマージェリー.png"; sourceTree = "<group>"; };
+		1DDBFCA1199DAC7E009D1DCF /* アメリカンワッフル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アメリカンワッフル.png"; sourceTree = "<group>"; };
+		1DDBFCA2199DAC7E009D1DCF /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCA3199DAC7E009D1DCF /* エスプレッソ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エスプレッソ.png"; sourceTree = "<group>"; };
+		1DDBFCA4199DAC7E009D1DCF /* エスプレッソコンパナ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エスプレッソコンパナ.png"; sourceTree = "<group>"; };
+		1DDBFCA5199DAC7E009D1DCF /* エスプレッソマキアート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エスプレッソマキアート.png"; sourceTree = "<group>"; };
+		1DDBFCA6199DAC7E009D1DCF /* エスプレッソフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エスプレッソフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCA7199DAC7E009D1DCF /* カフェアメリカーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カフェアメリカーノ.png"; sourceTree = "<group>"; };
+		1DDBFCA8199DAC7E009D1DCF /* カフェ モカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カフェ モカ.png"; sourceTree = "<group>"; };
+		1DDBFCA9199DAC7E009D1DCF /* カフェミスト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カフェミスト.png"; sourceTree = "<group>"; };
+		1DDBFCAA199DAC7E009D1DCF /* カプチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カプチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCAB199DAC7E009D1DCF /* キッズ ビバレッジ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キッズ ビバレッジ.png"; sourceTree = "<group>"; };
+		1DDBFCAC199DAC7E009D1DCF /* キャラメルスチーマー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キャラメルスチーマー.png"; sourceTree = "<group>"; };
+		1DDBFCAD199DAC7E009D1DCF /* キャラメルマキアート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キャラメルマキアート.png"; sourceTree = "<group>"; };
+		1DDBFCAE199DAC7E009D1DCF /* キャラメルソースをかけたカフェモカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キャラメルソースをかけたカフェモカ.png"; sourceTree = "<group>"; };
+		1DDBFCAF199DAC7E009D1DCF /* キャラメルフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キャラメルフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCB0199DAC7E009D1DCF /* キャラメルポップコーン＆プレッツェル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キャラメルポップコーン＆プレッツェル.png"; sourceTree = "<group>"; };
+		1DDBFCB1199DAC7E009D1DCF /* グラノラ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "グラノラ.png"; sourceTree = "<group>"; };
+		1DDBFCB2199DAC7E009D1DCF /* クロワッサンハム＆チーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "クロワッサンハム＆チーズ.png"; sourceTree = "<group>"; };
+		1DDBFCB3199DAC7E009D1DCF /* コーヒープレス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コーヒープレス.png"; sourceTree = "<group>"; };
+		1DDBFCB4199DAC7E009D1DCF /* コーヒーフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コーヒーフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCB5199DAC7E009D1DCF /* ココア.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ココア.png"; sourceTree = "<group>"; };
+		1DDBFCB6199DAC7E009D1DCF /* サラダラップ（根菜チキン）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "サラダラップ（根菜チキン）.png"; sourceTree = "<group>"; };
+		1DDBFCB7199DAC7E009D1DCF /* サラダラップ15品目メキシカンアボカド.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "サラダラップ15品目メキシカンアボカド.png"; sourceTree = "<group>"; };
+		1DDBFCB8199DAC7E009D1DCF /* サラダラップ チキンシーザー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "サラダラップ チキンシーザー.png"; sourceTree = "<group>"; };
+		1DDBFCB9199DAC7E009D1DCF /* シアトルラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シアトルラテ.png"; sourceTree = "<group>"; };
+		1DDBFCBA199DAC7E009D1DCF /* シーザーサラダ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シーザーサラダ.png"; sourceTree = "<group>"; };
+		1DDBFCBB199DAC7E009D1DCF /* シナモンロール.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シナモンロール.png"; sourceTree = "<group>"; };
+		1DDBFCBC199DAC7E009D1DCF /* シュガードーナツ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シュガードーナツ.png"; sourceTree = "<group>"; };
+		1DDBFCBD199DAC7E009D1DCF /* スターバックスティーラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スターバックスティーラテ.png"; sourceTree = "<group>"; };
+		1DDBFCBF199DAC7E009D1DCF /* スターバックスラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スターバックスラテ.png"; sourceTree = "<group>"; };
+		1DDBFCC0199DAC7E009D1DCF /* スターバックスリザーブクローバー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スターバックスリザーブクローバー.png"; sourceTree = "<group>"; };
+		1DDBFCC1199DAC7E009D1DCF /* スターバックスリザーブコーヒープレス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スターバックスリザーブコーヒープレス.png"; sourceTree = "<group>"; };
+		1DDBFCC2199DAC7E009D1DCF /* ソイラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ソイラテ.png"; sourceTree = "<group>"; };
+		1DDBFCC3199DAC7E009D1DCF /* ソーセージパイ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ソーセージパイ.png"; sourceTree = "<group>"; };
+		1DDBFCC4199DAC7E009D1DCF /* ターキースイス＆ツナサラダ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ターキースイス＆ツナサラダ.png"; sourceTree = "<group>"; };
+		1DDBFCC5199DAC7E009D1DCF /* ダークモカチップクリームフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ダークモカチップクリームフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCC6199DAC7E009D1DCF /* チキンとチーズのタルティーヌ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チキンとチーズのタルティーヌ.png"; sourceTree = "<group>"; };
+		1DDBFCC7199DAC7E009D1DCF /* チャイティーラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チャイティーラテ.png"; sourceTree = "<group>"; };
+		1DDBFCC8199DAC7E009D1DCF /* チャンキークッキーフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チャンキークッキーフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCC9199DAC7E009D1DCF /* チョコレートチャンククッキー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チョコレートチャンククッキー.png"; sourceTree = "<group>"; };
+		1DDBFCCA199DAC7E009D1DCF /* チョコレートチャンクスコーン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チョコレートチャンクスコーン.png"; sourceTree = "<group>"; };
+		1DDBFCCB199DAC7E009D1DCF /* チョコレートブラウニー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チョコレートブラウニー.png"; sourceTree = "<group>"; };
+		1DDBFCCC199DAC7E009D1DCF /* デビルズケーキ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "デビルズケーキ.png"; sourceTree = "<group>"; };
+		1DDBFCCD199DAC7E009D1DCF /* ドリップコーヒー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ドリップコーヒー.png"; sourceTree = "<group>"; };
+		1DDBFCCF199DAC7E009D1DCF /* ニューヨークチーズケーキ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ニューヨークチーズケーキ.png"; sourceTree = "<group>"; };
+		1DDBFCD0199DAC7E009D1DCF /* バジルチキン＆アボカドシュリンプ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バジルチキン＆アボカドシュリンプ.png"; sourceTree = "<group>"; };
+		1DDBFCD1199DAC7E009D1DCF /* バターミルクビスケット.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バターミルクビスケット.png"; sourceTree = "<group>"; };
+		1DDBFCD2199DAC7E009D1DCF /* バターリッチマフィン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バターリッチマフィン.png"; sourceTree = "<group>"; };
+		1DDBFCD3199DAC7E009D1DCF /* バナナブレッド.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バナナブレッド.png"; sourceTree = "<group>"; };
+		1DDBFCD4199DAC7E009D1DCF /* ハニーワッフル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハニーワッフル.png"; sourceTree = "<group>"; };
+		1DDBFCD5199DAC7E009D1DCF /* バニラクリームフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バニラクリームフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCD6199DAC7E009D1DCF /* フィローネハム＆マリボーチーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "フィローネハム＆マリボーチーズ.png"; sourceTree = "<group>"; };
+		1DDBFCD7199DAC7E009D1DCF /* フルーツジュースオレンジ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "フルーツジュースオレンジ.png"; sourceTree = "<group>"; };
+		1DDBFCD8199DAC7E009D1DCF /* フルーツジュースグレープフルーツ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "フルーツジュースグレープフルーツ.png"; sourceTree = "<group>"; };
+		1DDBFCD9199DAC7E009D1DCF /* フルーツジュースダブルスクイーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "フルーツジュースダブルスクイーズ.png"; sourceTree = "<group>"; };
+		1DDBFCDA199DAC7E009D1DCF /* ブルーベリー＆チーズクリームドーナツ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブルーベリー＆チーズクリームドーナツ.png"; sourceTree = "<group>"; };
+		1DDBFCDB199DAC7E009D1DCF /* ブルーベリースコーン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブルーベリースコーン.png"; sourceTree = "<group>"; };
+		1DDBFCDC199DAC7E009D1DCF /* ブルーベリーマフィン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブルーベリーマフィン.png"; sourceTree = "<group>"; };
+		1DDBFCDD199DAC7E009D1DCF /* ブルーベリーレアチーズパイ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブルーベリーレアチーズパイ.png"; sourceTree = "<group>"; };
+		1DDBFCDE199DAC7E009D1DCF /* ベーグルサンドサーモン＆クリームチーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ベーグルサンドサーモン＆クリームチーズ.png"; sourceTree = "<group>"; };
+		1DDBFCDF199DAC7E009D1DCF /* ベーグルサンドハム＆チーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ベーグルサンドハム＆チーズ.png"; sourceTree = "<group>"; };
+		1DDBFCE0199DAC7E009D1DCF /* ベーコンとほうれん草のキッシュ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ベーコンとほうれん草のキッシュ.png"; sourceTree = "<group>"; };
+		1DDBFCE1199DAC7E009D1DCF /* ホットティー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホットティー.png"; sourceTree = "<group>"; };
+		1DDBFCE3199DAC7E009D1DCF /* ホワイトモカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホワイトモカ.png"; sourceTree = "<group>"; };
+		1DDBFCE4199DAC7E009D1DCF /* ホワイトチョコレートマカダミアクッキー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホワイトチョコレートマカダミアクッキー.png"; sourceTree = "<group>"; };
+		1DDBFCE5199DAC7E009D1DCF /* マンゴーシフォンケーキ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "マンゴーシフォンケーキ.png"; sourceTree = "<group>"; };
+		1DDBFCE6199DAC7E009D1DCF /* マンゴーパッションティーフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "マンゴーパッションティーフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCE7199DAC7E009D1DCF /* ミックスサンドイッチ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ミックスサンドイッチ.png"; sourceTree = "<group>"; };
+		1DDBFCE8199DAC7E009D1DCF /* ミラノエスプレッソ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ミラノエスプレッソ.png"; sourceTree = "<group>"; };
+		1DDBFCE9199DAC7E009D1DCF /* レモンポピーシードスコーン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "レモンポピーシードスコーン.png"; sourceTree = "<group>"; };
+		1DDBFCEA199DAC7E009D1DCF /* 夏野菜とベーコンのタルティーヌ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "夏野菜とベーコンのタルティーヌ.png"; sourceTree = "<group>"; };
+		1DDBFCEB199DAC7E009D1DCF /* 京都抹茶ラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "京都抹茶ラテ.png"; sourceTree = "<group>"; };
+		1DDBFCEC199DAC7E009D1DCF /* 抹茶クリームフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抹茶クリームフラペチーノ.png"; sourceTree = "<group>"; };
+		1DDBFCED199DAC7E009D1DCF /* 抹茶ティーラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抹茶ティーラテ.png"; sourceTree = "<group>"; };
+		1DE6F88F19CC4DB100A3C240 /* ヘーゼルナッツカフェアメリカーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ヘーゼルナッツカフェアメリカーノ.png"; sourceTree = "<group>"; };
+		1DFC4EE419AB0A9300BC7C78 /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg"; sourceTree = "<group>"; };
+		D76781E5199CE96000A512EA /* カフェミスト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カフェミスト.png"; sourceTree = "<group>"; };
+		D76781E6199CE96000A512EA /* キャラメルフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キャラメルフラペチーノ.png"; sourceTree = "<group>"; };
+		D76781EC199CF34D00A512EA /* SecretMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecretMenuViewController.h; path = ../SecretMenuViewController.h; sourceTree = "<group>"; };
+		D76781ED199CF34D00A512EA /* SecretMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecretMenuViewController.m; path = ../SecretMenuViewController.m; sourceTree = "<group>"; };
+		D778DE50199D859100B1275D /* ホワイトチョコレートモカフラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ホワイトチョコレートモカフラペチーノ.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DCAC9C1184F43F200E1ACF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCAC9C8184F43F200E1ACF1 /* UIKit.framework in Frameworks */,
+				1DCAC9CA184F43F200E1ACF1 /* Foundation.framework in Frameworks */,
+				1DCAC9CC184F43F200E1ACF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DCAC9E6184F43F200E1ACF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCAC9EC184F43F200E1ACF1 /* SenTestingKit.framework in Frameworks */,
+				1DCAC9ED184F43F200E1ACF1 /* UIKit.framework in Frameworks */,
+				1DCAC9EE184F43F200E1ACF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DCAC9BB184F43F200E1ACF1 = {
+			isa = PBXGroup;
+			children = (
+				1DCAC9CD184F43F200E1ACF1 /* がんしみゅ */,
+				1DCAC9F1184F43F200E1ACF1 /* がんしみゅTests */,
+				1DCAC9C6184F43F200E1ACF1 /* Frameworks */,
+				1DCAC9C5184F43F200E1ACF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DCAC9C5184F43F200E1ACF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAC9C4184F43F200E1ACF1 /* スタバ メニュー.app */,
+				1DCAC9EA184F43F200E1ACF1 /* スタバ メニューTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DCAC9C6184F43F200E1ACF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAC9C7184F43F200E1ACF1 /* UIKit.framework */,
+				1DCAC9C9184F43F200E1ACF1 /* Foundation.framework */,
+				1DCAC9CB184F43F200E1ACF1 /* CoreGraphics.framework */,
+				1DCAC9EB184F43F200E1ACF1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DCAC9CD184F43F200E1ACF1 /* がんしみゅ */ = {
+			isa = PBXGroup;
+			children = (
+				1D94D9D718CB0098002DEEC9 /* 20130907_mh4_monsho.png */,
+				1D349AE218694DD80049FCA7 /* sukiru.csv */,
+				1D349AE418694E830049FCA7 /* setumei.h */,
+				1D349AE518694E830049FCA7 /* setumei.m */,
+				1DCAC9D6184F43F200E1ACF1 /* AppDelegate.h */,
+				1DCAC9D7184F43F200E1ACF1 /* AppDelegate.m */,
+				1DCAC9DF184F43F200E1ACF1 /* MainStoryboard.storyboard */,
+				1DCF5AAB19172B1900CDC2AA /* lifeistech.png */,
+				1D89906D186913590070D348 /* sukirukennsaku.h */,
+				1DB5A47F1915CCA2003BB0B1 /* BaseTableViewController.h */,
+				1DB5A4801915CCA2003BB0B1 /* BaseTableViewController.m */,
+				1D3AD4591914DF87003550F9 /* DetailViewController.h */,
+				1D3AD45A1914DF87003550F9 /* DetailViewController.m */,
+				1D9C25501915DEAE008107A9 /* DetailTableViewController.h */,
+				1D9C25511915DEAE008107A9 /* DetailTableViewController.m */,
+				1D9C255319162025008107A9 /* DescriptionViewController.h */,
+				1D9C255419162025008107A9 /* DescriptionViewController.m */,
+				D76781EC199CF34D00A512EA /* SecretMenuViewController.h */,
+				D76781ED199CF34D00A512EA /* SecretMenuViewController.m */,
+				1D92CE48198F642F0010BD50 /* ura-Menu.plist */,
+				1D9C2559191681B2008107A9 /* Menu.plist */,
+				1DCAC9CE184F43F200E1ACF1 /* Supporting Files */,
+				1D9C267E1987595A00C0DF0B /* TableCell.h */,
+				1D9C267F1987595A00C0DF0B /* TableCell.m */,
+			);
+			path = "がんしみゅ";
+			sourceTree = "<group>";
+		};
+		1DCAC9CE184F43F200E1ACF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D2578D119AB2158000FB129 /* オレオフラペチーノ.png */,
+				1DFC4EE419AB0A9300BC7C78 /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg */,
+				1DDBFC99199DAC7E009D1DCF /* be juicy! kids.png */,
+				1DDBFC9A199DAC7E009D1DCF /* BLT＆エッグ.png */,
+				1DDBFC9B199DAC7E009D1DCF /* Coffee&Espresso キャラメルマキアート.png */,
+				1DDBFC9C199DAC7E009D1DCF /* Coffee&Espresso カフェモカ.png */,
+				1DDBFC9E199DAC7E009D1DCF /* Coffee&Espresso レモン.png */,
+				1DDBFC9F199DAC7E009D1DCF /* アイスティー.png */,
+				1DDBFCA0199DAC7E009D1DCF /* アイスコーヒー with サマージェリー.png */,
+				1DDBFCA1199DAC7E009D1DCF /* アメリカンワッフル.png */,
+				1DDBFCA2199DAC7E009D1DCF /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.png */,
+				1DDBFCA3199DAC7E009D1DCF /* エスプレッソ.png */,
+				1DDBFCA4199DAC7E009D1DCF /* エスプレッソコンパナ.png */,
+				1DDBFCA5199DAC7E009D1DCF /* エスプレッソマキアート.png */,
+				1DDBFCA6199DAC7E009D1DCF /* エスプレッソフラペチーノ.png */,
+				1DDBFCA7199DAC7E009D1DCF /* カフェアメリカーノ.png */,
+				1DDBFCA8199DAC7E009D1DCF /* カフェ モカ.png */,
+				1DDBFCA9199DAC7E009D1DCF /* カフェミスト.png */,
+				1DDBFCAA199DAC7E009D1DCF /* カプチーノ.png */,
+				1DDBFCAB199DAC7E009D1DCF /* キッズ ビバレッジ.png */,
+				1DDBFCAC199DAC7E009D1DCF /* キャラメルスチーマー.png */,
+				1DDBFCAD199DAC7E009D1DCF /* キャラメルマキアート.png */,
+				1DDBFCAE199DAC7E009D1DCF /* キャラメルソースをかけたカフェモカ.png */,
+				1DDBFCAF199DAC7E009D1DCF /* キャラメルフラペチーノ.png */,
+				1DDBFCB0199DAC7E009D1DCF /* キャラメルポップコーン＆プレッツェル.png */,
+				1DDBFCB1199DAC7E009D1DCF /* グラノラ.png */,
+				1DDBFCB2199DAC7E009D1DCF /* クロワッサンハム＆チーズ.png */,
+				1D25995D19C310DB006B4B5E /* ココアカプチーノ.png */,
+				1D25995319C3094C006B4B5E /* コーヒー抹茶クリームフラペチーノ.png */,
+				1DDBFCB3199DAC7E009D1DCF /* コーヒープレス.png */,
+				1DDBFCB4199DAC7E009D1DCF /* コーヒーフラペチーノ.png */,
+				1DDBFCB5199DAC7E009D1DCF /* ココア.png */,
+				1DDBFCB6199DAC7E009D1DCF /* サラダラップ（根菜チキン）.png */,
+				1DDBFCB7199DAC7E009D1DCF /* サラダラップ15品目メキシカンアボカド.png */,
+				1DDBFCB8199DAC7E009D1DCF /* サラダラップ チキンシーザー.png */,
+				1DDBFCB9199DAC7E009D1DCF /* シアトルラテ.png */,
+				1DDBFCBA199DAC7E009D1DCF /* シーザーサラダ.png */,
+				1DDBFCBB199DAC7E009D1DCF /* シナモンロール.png */,
+				1DDBFCBC199DAC7E009D1DCF /* シュガードーナツ.png */,
+				1D89093419D6D3680049B442 /* ジェイソンスペシャル.png */,
+				1D25994D19C2FA47006B4B5E /* スターバックスティラミス.png */,
+				1DDBFCBD199DAC7E009D1DCF /* スターバックスティーラテ.png */,
+				1DDBFCBF199DAC7E009D1DCF /* スターバックスラテ.png */,
+				1DDBFCC0199DAC7E009D1DCF /* スターバックスリザーブクローバー.png */,
+				1DDBFCC1199DAC7E009D1DCF /* スターバックスリザーブコーヒープレス.png */,
+				1D25995F19C31191006B4B5E /* ゼブラマキアート.png */,
+				1DDBFCC2199DAC7E009D1DCF /* ソイラテ.png */,
+				1D89093019D6D11A0049B442 /* ソイラテ　カロリー.png */,
+				1DDBFCC3199DAC7E009D1DCF /* ソーセージパイ.png */,
+				1DDBFCC4199DAC7E009D1DCF /* ターキースイス＆ツナサラダ.png */,
+				1DDBFCC5199DAC7E009D1DCF /* ダークモカチップクリームフラペチーノ.png */,
+				1DDBFCC6199DAC7E009D1DCF /* チキンとチーズのタルティーヌ.png */,
+				1DDBFCC7199DAC7E009D1DCF /* チャイティーラテ.png */,
+				1DDBA10919CC490C008BE2A2 /* チャンキークッキーコーヒージェリーフラペチーノ.png */,
+				1DDBFCC8199DAC7E009D1DCF /* チャンキークッキーフラペチーノ.png */,
+				1DDBFCC9199DAC7E009D1DCF /* チョコレートチャンククッキー.png */,
+				1DDBFCCA199DAC7E009D1DCF /* チョコレートチャンクスコーン.png */,
+				1DDBFCCB199DAC7E009D1DCF /* チョコレートブラウニー.png */,
+				1DDBFCCC199DAC7E009D1DCF /* デビルズケーキ.png */,
+				1DDBFCCD199DAC7E009D1DCF /* ドリップコーヒー.png */,
+				1D25994B19C2F911006B4B5E /* ニューヨークノンスウィートラテ.png */,
+				1DDBFCCF199DAC7E009D1DCF /* ニューヨークチーズケーキ.png */,
+				1D25995919C30C52006B4B5E /* ノンホイップ・アーモンド・ソイ・モカ.png */,
+				1DDBFCD0199DAC7E009D1DCF /* バジルチキン＆アボカドシュリンプ.png */,
+				1DDBFCD1199DAC7E009D1DCF /* バターミルクビスケット.png */,
+				1DDBFCD2199DAC7E009D1DCF /* バターリッチマフィン.png */,
+				1DDBFCD3199DAC7E009D1DCF /* バナナブレッド.png */,
+				1D25995B19C30E23006B4B5E /* ハニーミルクラテ.png */,
+				1DDBFCD4199DAC7E009D1DCF /* ハニーワッフル.png */,
+				1DDBFCD5199DAC7E009D1DCF /* バニラクリームフラペチーノ.png */,
+				1D89093219D6D2920049B442 /* バニララテ.png */,
+				1DDBFCD6199DAC7E009D1DCF /* フィローネハム＆マリボーチーズ.png */,
+				1DDBFCD7199DAC7E009D1DCF /* フルーツジュースオレンジ.png */,
+				1DDBFCD8199DAC7E009D1DCF /* フルーツジュースグレープフルーツ.png */,
+				1DDBFCD9199DAC7E009D1DCF /* フルーツジュースダブルスクイーズ.png */,
+				1DDBFCDA199DAC7E009D1DCF /* ブルーベリー＆チーズクリームドーナツ.png */,
+				1DDBFCDB199DAC7E009D1DCF /* ブルーベリースコーン.png */,
+				1DDBFCDC199DAC7E009D1DCF /* ブルーベリーマフィン.png */,
+				1DDBFCDD199DAC7E009D1DCF /* ブルーベリーレアチーズパイ.png */,
+				1DE6F88F19CC4DB100A3C240 /* ヘーゼルナッツカフェアメリカーノ.png */,
+				1DDBFCDE199DAC7E009D1DCF /* ベーグルサンドサーモン＆クリームチーズ.png */,
+				1DDBFCDF199DAC7E009D1DCF /* ベーグルサンドハム＆チーズ.png */,
+				1DDBFCE0199DAC7E009D1DCF /* ベーコンとほうれん草のキッシュ.png */,
+				1DDBFCE1199DAC7E009D1DCF /* ホットティー.png */,
+				1D25995119C2FBF3006B4B5E /* ホットベーグルサンドベーコン＆エッグ.png */,
+				1DDBFCE3199DAC7E009D1DCF /* ホワイトモカ.png */,
+				1D25995519C30A75006B4B5E /* ホワイトチョコレート　モカフラペチーノ.png */,
+				1DDBFCE4199DAC7E009D1DCF /* ホワイトチョコレートマカダミアクッキー.png */,
+				1DDBFCE5199DAC7E009D1DCF /* マンゴーシフォンケーキ.png */,
+				1DDBFCE6199DAC7E009D1DCF /* マンゴーパッションティーフラペチーノ.png */,
+				1DDBFCE7199DAC7E009D1DCF /* ミックスサンドイッチ.png */,
+				1DDBFCE8199DAC7E009D1DCF /* ミラノエスプレッソ.png */,
+				1DDBFCE9199DAC7E009D1DCF /* レモンポピーシードスコーン.png */,
+				1DDBFCEA199DAC7E009D1DCF /* 夏野菜とベーコンのタルティーヌ.png */,
+				1DDBFCEB199DAC7E009D1DCF /* 京都抹茶ラテ.png */,
+				1DDBFCEC199DAC7E009D1DCF /* 抹茶クリームフラペチーノ.png */,
+				1DDBFCED199DAC7E009D1DCF /* 抹茶ティーラテ.png */,
+				1DDBFBED199DA8F4009D1DCF /* ポットサービス.png */,
+				1D25995719C30B52006B4B5E /* 不思議と桃の味がするフラペチーノ.png */,
+				D76781E3199CE96000A512EA /* junroImg */,
+				1DCAC9CF184F43F200E1ACF1 /* スタバ メニュー-Info.plist */,
+				1DCAC9D0184F43F200E1ACF1 /* InfoPlist.strings */,
+				1DCAC9D3184F43F200E1ACF1 /* main.m */,
+				1DCAC9D5184F43F200E1ACF1 /* スタバ メニュー-Prefix.pch */,
+				1DCAC9D9184F43F200E1ACF1 /* Default.png */,
+				1DCAC9DB184F43F200E1ACF1 /* Default@2x.png */,
+				1DCAC9DD184F43F200E1ACF1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DCAC9F1184F43F200E1ACF1 /* がんしみゅTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAC9F7184F43F200E1ACF1 /* ______Tests.h */,
+				1DCAC9F8184F43F200E1ACF1 /* ______Tests.m */,
+				1DCAC9F2184F43F200E1ACF1 /* Supporting Files */,
+			);
+			path = "がんしみゅTests";
+			sourceTree = "<group>";
+		};
+		1DCAC9F2184F43F200E1ACF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAC9F3184F43F200E1ACF1 /* スタバ メニューTests-Info.plist */,
+				1DCAC9F4184F43F200E1ACF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D76781E3199CE96000A512EA /* junroImg */ = {
+			isa = PBXGroup;
+			children = (
+				D76781E4199CE96000A512EA /* normal */,
+				D76781E7199CE96000A512EA /* secret */,
+			);
+			name = junroImg;
+			path = ../junroImg;
+			sourceTree = "<group>";
+		};
+		D76781E4199CE96000A512EA /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				1DDBFBEB199DA5A5009D1DCF /* スタバ　ロゴ.png */,
+				D76781E5199CE96000A512EA /* カフェミスト.png */,
+				1DDBFBDC199DA0C0009D1DCF /* マンゴーパッションティーフラペチーノ.png */,
+				1DDBFBD4199DA08F009D1DCF /* ダークモカチップクリームフラペチーノ.png */,
+				1DDBFBDE199DA0ED009D1DCF /* コーヒー　プレス.png */,
+				1DDBFBE0199DA0FE009D1DCF /* ドリップ コーヒー.png */,
+				1DDBFBE8199DA1ED009D1DCF /* カフェモカ.png */,
+				1DDBFBDA199DA0BB009D1DCF /* 抹茶 クリーム フラペチーノ®.png */,
+				1DDBFBE6199DA164009D1DCF /* アメリカンワッフル.png */,
+				1DDBFBE4199DA136009D1DCF /* デビルズケーキ.png */,
+				1DDBFBD8199DA0AE009D1DCF /* バニラクリームフラペチーノ.png */,
+				1DDBFBE2199DA119009D1DCF /* ホット ティー.png */,
+				1DDBFBD6199DA0A1009D1DCF /* チャンキークッキーフラペチーノ.png */,
+				D76781E6199CE96000A512EA /* キャラメルフラペチーノ.png */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		D76781E7199CE96000A512EA /* secret */ = {
+			isa = PBXGroup;
+			children = (
+				D778DE50199D859100B1275D /* ホワイトチョコレートモカフラペチーノ.png */,
+			);
+			path = secret;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DCAC9C3184F43F200E1ACF1 /* スタバ メニュー */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCAC9FC184F43F200E1ACF1 /* Build configuration list for PBXNativeTarget "スタバ メニュー" */;
+			buildPhases = (
+				1DCAC9C0184F43F200E1ACF1 /* Sources */,
+				1DCAC9C1184F43F200E1ACF1 /* Frameworks */,
+				1DCAC9C2184F43F200E1ACF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "スタバ メニュー";
+			productName = "がんしみゅ";
+			productReference = 1DCAC9C4184F43F200E1ACF1 /* スタバ メニュー.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DCAC9E9184F43F200E1ACF1 /* スタバ メニューTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCAC9FF184F43F200E1ACF1 /* Build configuration list for PBXNativeTarget "スタバ メニューTests" */;
+			buildPhases = (
+				1DCAC9E5184F43F200E1ACF1 /* Sources */,
+				1DCAC9E6184F43F200E1ACF1 /* Frameworks */,
+				1DCAC9E7184F43F200E1ACF1 /* Resources */,
+				1DCAC9E8184F43F200E1ACF1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DCAC9F0184F43F200E1ACF1 /* PBXTargetDependency */,
+			);
+			name = "スタバ メニューTests";
+			productName = "がんしみゅTests";
+			productReference = 1DCAC9EA184F43F200E1ACF1 /* スタバ メニューTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DCAC9BC184F43F200E1ACF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "陸 野口";
+			};
+			buildConfigurationList = 1DCAC9BF184F43F200E1ACF1 /* Build configuration list for PBXProject "スタバ メニュー" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DCAC9BB184F43F200E1ACF1;
+			productRefGroup = 1DCAC9C5184F43F200E1ACF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DCAC9C3184F43F200E1ACF1 /* スタバ メニュー */,
+				1DCAC9E9184F43F200E1ACF1 /* スタバ メニューTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DCAC9C2184F43F200E1ACF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D89093319D6D2920049B442 /* バニララテ.png in Resources */,
+				1DDBFD3E199DAC7E009D1DCF /* レモンポピーシードスコーン.png in Resources */,
+				1DDBFBE5199DA136009D1DCF /* デビルズケーキ.png in Resources */,
+				1DDBFCFC199DAC7E009D1DCF /* カフェアメリカーノ.png in Resources */,
+				1DCAC9D2184F43F200E1ACF1 /* InfoPlist.strings in Resources */,
+				1DDBFBD5199DA08F009D1DCF /* ダークモカチップクリームフラペチーノ.png in Resources */,
+				1DDBFBD9199DA0AE009D1DCF /* バニラクリームフラペチーノ.png in Resources */,
+				1DDBFD1E199DAC7E009D1DCF /* チョコレートチャンククッキー.png in Resources */,
+				1DDBFCFE199DAC7E009D1DCF /* カフェミスト.png in Resources */,
+				1D25994E19C2FA47006B4B5E /* スターバックスティラミス.png in Resources */,
+				1DDBFD0C199DAC7E009D1DCF /* サラダラップ15品目メキシカンアボカド.png in Resources */,
+				1D89093119D6D11A0049B442 /* ソイラテ　カロリー.png in Resources */,
+				1DDBFD33199DAC7E009D1DCF /* ベーグルサンドサーモン＆クリームチーズ.png in Resources */,
+				1DDBFD04199DAC7E009D1DCF /* キャラメルフラペチーノ.png in Resources */,
+				1DCAC9DA184F43F200E1ACF1 /* Default.png in Resources */,
+				1DDBFD05199DAC7E009D1DCF /* キャラメルポップコーン＆プレッツェル.png in Resources */,
+				1DDBFBEE199DA8F4009D1DCF /* ポットサービス.png in Resources */,
+				1D92CE49198F642F0010BD50 /* ura-Menu.plist in Resources */,
+				1DCF5AAC19172B1900CDC2AA /* lifeistech.png in Resources */,
+				1DDBFD21199DAC7E009D1DCF /* デビルズケーキ.png in Resources */,
+				1DDBFCF8199DAC7E009D1DCF /* エスプレッソ.png in Resources */,
+				1DDBFD16199DAC7E009D1DCF /* スターバックスリザーブコーヒープレス.png in Resources */,
+				D76781E9199CE96000A512EA /* カフェミスト.png in Resources */,
+				1DDBFBDB199DA0BB009D1DCF /* 抹茶 クリーム フラペチーノ®.png in Resources */,
+				1DDBFD0B199DAC7E009D1DCF /* サラダラップ（根菜チキン）.png in Resources */,
+				1DDBFD29199DAC7E009D1DCF /* ハニーワッフル.png in Resources */,
+				1DDBFD24199DAC7E009D1DCF /* ニューヨークチーズケーキ.png in Resources */,
+				1DDBFD3F199DAC7E009D1DCF /* 夏野菜とベーコンのタルティーヌ.png in Resources */,
+				1DDBFCFA199DAC7E009D1DCF /* エスプレッソマキアート.png in Resources */,
+				1DDBFD09199DAC7E009D1DCF /* コーヒーフラペチーノ.png in Resources */,
+				1DDBFD3C199DAC7E009D1DCF /* ミックスサンドイッチ.png in Resources */,
+				1DDBFCEF199DAC7E009D1DCF /* BLT＆エッグ.png in Resources */,
+				1DDBFBDF199DA0ED009D1DCF /* コーヒー　プレス.png in Resources */,
+				1DDBFD03199DAC7E009D1DCF /* キャラメルソースをかけたカフェモカ.png in Resources */,
+				1DDBFCF7199DAC7E009D1DCF /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.png in Resources */,
+				1DDBFD27199DAC7E009D1DCF /* バターリッチマフィン.png in Resources */,
+				1DDBFCF3199DAC7E009D1DCF /* Coffee&Espresso レモン.png in Resources */,
+				D778DE51199D859100B1275D /* ホワイトチョコレートモカフラペチーノ.png in Resources */,
+				1D94D9D818CB0098002DEEC9 /* 20130907_mh4_monsho.png in Resources */,
+				1DDBFD38199DAC7E009D1DCF /* ホワイトモカ.png in Resources */,
+				1DDBFCFD199DAC7E009D1DCF /* カフェ モカ.png in Resources */,
+				1DCAC9DC184F43F200E1ACF1 /* Default@2x.png in Resources */,
+				1DDBFBEC199DA5A5009D1DCF /* スタバ　ロゴ.png in Resources */,
+				1DDBFD1D199DAC7E009D1DCF /* チャンキークッキーフラペチーノ.png in Resources */,
+				1DDBFCF4199DAC7E009D1DCF /* アイスティー.png in Resources */,
+				1DDBFD07199DAC7E009D1DCF /* クロワッサンハム＆チーズ.png in Resources */,
+				1DDBFD34199DAC7E009D1DCF /* ベーグルサンドハム＆チーズ.png in Resources */,
+				1DDBFD26199DAC7E009D1DCF /* バターミルクビスケット.png in Resources */,
+				1D9C255A191681B2008107A9 /* Menu.plist in Resources */,
+				1DDBFD30199DAC7E009D1DCF /* ブルーベリースコーン.png in Resources */,
+				1DDBFCEE199DAC7E009D1DCF /* be juicy! kids.png in Resources */,
+				1DDBFD2F199DAC7E009D1DCF /* ブルーベリー＆チーズクリームドーナツ.png in Resources */,
+				1DDBFD06199DAC7E009D1DCF /* グラノラ.png in Resources */,
+				1DDBFD42199DAC7E009D1DCF /* 抹茶ティーラテ.png in Resources */,
+				1DDBFD2B199DAC7E009D1DCF /* フィローネハム＆マリボーチーズ.png in Resources */,
+				1D25994C19C2F911006B4B5E /* ニューヨークノンスウィートラテ.png in Resources */,
+				1D25995C19C30E23006B4B5E /* ハニーミルクラテ.png in Resources */,
+				1DDBFBE1199DA0FE009D1DCF /* ドリップ コーヒー.png in Resources */,
+				1DDBFD3B199DAC7E009D1DCF /* マンゴーパッションティーフラペチーノ.png in Resources */,
+				1D25995619C30A75006B4B5E /* ホワイトチョコレート　モカフラペチーノ.png in Resources */,
+				1DDBFD01199DAC7E009D1DCF /* キャラメルスチーマー.png in Resources */,
+				1DDBFD2A199DAC7E009D1DCF /* バニラクリームフラペチーノ.png in Resources */,
+				1DDBFD11199DAC7E009D1DCF /* シュガードーナツ.png in Resources */,
+				1DDBFD1F199DAC7E009D1DCF /* チョコレートチャンクスコーン.png in Resources */,
+				1DDBFD02199DAC7E009D1DCF /* キャラメルマキアート.png in Resources */,
+				1D25995219C2FBF3006B4B5E /* ホットベーグルサンドベーコン＆エッグ.png in Resources */,
+				1DDBFD36199DAC7E009D1DCF /* ホットティー.png in Resources */,
+				1D25996019C31191006B4B5E /* ゼブラマキアート.png in Resources */,
+				1DCAC9DE184F43F200E1ACF1 /* Default-568h@2x.png in Resources */,
+				1DDBFCF6199DAC7E009D1DCF /* アメリカンワッフル.png in Resources */,
+				1DDBFCF1199DAC7E009D1DCF /* Coffee&Espresso カフェモカ.png in Resources */,
+				1DDBFD17199DAC7E009D1DCF /* ソイラテ.png in Resources */,
+				1D25995819C30B52006B4B5E /* 不思議と桃の味がするフラペチーノ.png in Resources */,
+				1DDBFD3D199DAC7E009D1DCF /* ミラノエスプレッソ.png in Resources */,
+				1DDBFCFB199DAC7E009D1DCF /* エスプレッソフラペチーノ.png in Resources */,
+				1DDBFD1C199DAC7E009D1DCF /* チャイティーラテ.png in Resources */,
+				1DCAC9E1184F43F200E1ACF1 /* MainStoryboard.storyboard in Resources */,
+				1DDBFD3A199DAC7E009D1DCF /* マンゴーシフォンケーキ.png in Resources */,
+				1D25995E19C310DB006B4B5E /* ココアカプチーノ.png in Resources */,
+				1DDBFD0F199DAC7E009D1DCF /* シーザーサラダ.png in Resources */,
+				1DFC4EE519AB0A9300BC7C78 /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg in Resources */,
+				1DDBFD20199DAC7E009D1DCF /* チョコレートブラウニー.png in Resources */,
+				1D89093519D6D3680049B442 /* ジェイソンスペシャル.png in Resources */,
+				1DDBFD0D199DAC7E009D1DCF /* サラダラップ チキンシーザー.png in Resources */,
+				1DDBFD0A199DAC7E009D1DCF /* ココア.png in Resources */,
+				1DDBFBD7199DA0A1009D1DCF /* チャンキークッキーフラペチーノ.png in Resources */,
+				1D349AE318694DD80049FCA7 /* sukiru.csv in Resources */,
+				1DDBFD2C199DAC7E009D1DCF /* フルーツジュースオレンジ.png in Resources */,
+				1DDBFD14199DAC7E009D1DCF /* スターバックスラテ.png in Resources */,
+				1DDBFBE9199DA1ED009D1DCF /* カフェモカ.png in Resources */,
+				1DDBFD00199DAC7E009D1DCF /* キッズ ビバレッジ.png in Resources */,
+				1DDBA10A19CC490C008BE2A2 /* チャンキークッキーコーヒージェリーフラペチーノ.png in Resources */,
+				1DDBFD10199DAC7E009D1DCF /* シナモンロール.png in Resources */,
+				1DDBFCF9199DAC7E009D1DCF /* エスプレッソコンパナ.png in Resources */,
+				1DDBFBDD199DA0C0009D1DCF /* マンゴーパッションティーフラペチーノ.png in Resources */,
+				1DDBFBE7199DA164009D1DCF /* アメリカンワッフル.png in Resources */,
+				1DDBFCF5199DAC7E009D1DCF /* アイスコーヒー with サマージェリー.png in Resources */,
+				D76781EA199CE96000A512EA /* キャラメルフラペチーノ.png in Resources */,
+				1DDBFD18199DAC7E009D1DCF /* ソーセージパイ.png in Resources */,
+				1DDBFD08199DAC7E009D1DCF /* コーヒープレス.png in Resources */,
+				1DDBFD1B199DAC7E009D1DCF /* チキンとチーズのタルティーヌ.png in Resources */,
+				1DDBFD40199DAC7E009D1DCF /* 京都抹茶ラテ.png in Resources */,
+				1DDBFD35199DAC7E009D1DCF /* ベーコンとほうれん草のキッシュ.png in Resources */,
+				1D25995A19C30C52006B4B5E /* ノンホイップ・アーモンド・ソイ・モカ.png in Resources */,
+				1DDBFD2D199DAC7E009D1DCF /* フルーツジュースグレープフルーツ.png in Resources */,
+				1DDBFD19199DAC7E009D1DCF /* ターキースイス＆ツナサラダ.png in Resources */,
+				1DDBFD15199DAC7E009D1DCF /* スターバックスリザーブクローバー.png in Resources */,
+				1DDBFBE3199DA119009D1DCF /* ホット ティー.png in Resources */,
+				1DDBFD41199DAC7E009D1DCF /* 抹茶クリームフラペチーノ.png in Resources */,
+				1DDBFD25199DAC7E009D1DCF /* バジルチキン＆アボカドシュリンプ.png in Resources */,
+				1DDBFD2E199DAC7E009D1DCF /* フルーツジュースダブルスクイーズ.png in Resources */,
+				1DDBFD28199DAC7E009D1DCF /* バナナブレッド.png in Resources */,
+				1DDBFD31199DAC7E009D1DCF /* ブルーベリーマフィン.png in Resources */,
+				1DDBFCFF199DAC7E009D1DCF /* カプチーノ.png in Resources */,
+				1DDBFD22199DAC7E009D1DCF /* ドリップコーヒー.png in Resources */,
+				1D25995419C3094C006B4B5E /* コーヒー抹茶クリームフラペチーノ.png in Resources */,
+				1DDBFCF0199DAC7E009D1DCF /* Coffee&Espresso キャラメルマキアート.png in Resources */,
+				1D2578D219AB2158000FB129 /* オレオフラペチーノ.png in Resources */,
+				1DDBFD1A199DAC7E009D1DCF /* ダークモカチップクリームフラペチーノ.png in Resources */,
+				1DDBFD32199DAC7E009D1DCF /* ブルーベリーレアチーズパイ.png in Resources */,
+				1DDBFD12199DAC7E009D1DCF /* スターバックスティーラテ.png in Resources */,
+				1DE6F89019CC4DB100A3C240 /* ヘーゼルナッツカフェアメリカーノ.png in Resources */,
+				1DDBFD0E199DAC7E009D1DCF /* シアトルラテ.png in Resources */,
+				1DDBFD39199DAC7E009D1DCF /* ホワイトチョコレートマカダミアクッキー.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DCAC9E7184F43F200E1ACF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCAC9F6184F43F200E1ACF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DCAC9E8184F43F200E1ACF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DCAC9C0184F43F200E1ACF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3AD45B1914DF87003550F9 /* DetailViewController.m in Sources */,
+				1D9C255519162025008107A9 /* DescriptionViewController.m in Sources */,
+				D76781EE199CF34D00A512EA /* SecretMenuViewController.m in Sources */,
+				1DCAC9D4184F43F200E1ACF1 /* main.m in Sources */,
+				1D9C25521915DEAE008107A9 /* DetailTableViewController.m in Sources */,
+				1DCAC9D8184F43F200E1ACF1 /* AppDelegate.m in Sources */,
+				1DB5A4811915CCA2003BB0B1 /* BaseTableViewController.m in Sources */,
+				1D9C26801987595A00C0DF0B /* TableCell.m in Sources */,
+				1D349AE618694E830049FCA7 /* setumei.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DCAC9E5184F43F200E1ACF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCAC9F9184F43F200E1ACF1 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DCAC9F0184F43F200E1ACF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DCAC9C3184F43F200E1ACF1 /* スタバ メニュー */;
+			targetProxy = 1DCAC9EF184F43F200E1ACF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DCAC9D0184F43F200E1ACF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCAC9D1184F43F200E1ACF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DCAC9DF184F43F200E1ACF1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCAC9E0184F43F200E1ACF1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1DCAC9F4184F43F200E1ACF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DCAC9F5184F43F200E1ACF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DCAC9FA184F43F200E1ACF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DCAC9FB184F43F200E1ACF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DCAC9FD184F43F200E1ACF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "がんしみゅ/スタバ メニュー-Prefix.pch";
+				INFOPLIST_FILE = "がんしみゅ/スタバ メニュー-Info.plist";
+				PRODUCT_NAME = "スタバ メニュー";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DCAC9FE184F43F200E1ACF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "がんしみゅ/スタバ メニュー-Prefix.pch";
+				INFOPLIST_FILE = "がんしみゅ/スタバ メニュー-Info.plist";
+				PRODUCT_NAME = "スタバ メニュー";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DCACA00184F43F200E1ACF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/がんしみゅ.app/がんしみゅ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "がんしみゅ/がんしみゅ-Prefix.pch";
+				INFOPLIST_FILE = "がんしみゅTests/スタバ メニューTests-Info.plist";
+				PRODUCT_NAME = "スタバ メニューTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1DCACA01184F43F200E1ACF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/がんしみゅ.app/がんしみゅ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "がんしみゅ/がんしみゅ-Prefix.pch";
+				INFOPLIST_FILE = "がんしみゅTests/スタバ メニューTests-Info.plist";
+				PRODUCT_NAME = "スタバ メニューTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DCAC9BF184F43F200E1ACF1 /* Build configuration list for PBXProject "スタバ メニュー" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCAC9FA184F43F200E1ACF1 /* Debug */,
+				1DCAC9FB184F43F200E1ACF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCAC9FC184F43F200E1ACF1 /* Build configuration list for PBXNativeTarget "スタバ メニュー" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCAC9FD184F43F200E1ACF1 /* Debug */,
+				1DCAC9FE184F43F200E1ACF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCAC9FF184F43F200E1ACF1 /* Build configuration list for PBXNativeTarget "スタバ メニューTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCACA00184F43F200E1ACF1 /* Debug */,
+				1DCACA01184F43F200E1ACF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DCAC9BC184F43F200E1ACF1 /* Project object */;
+}

@@ -10,7 +10,6 @@
 
 @interface BaseTableViewController : UITableViewController
 
-
-
+@property (weak, nonatomic) NSString *menuName;
 
 @end

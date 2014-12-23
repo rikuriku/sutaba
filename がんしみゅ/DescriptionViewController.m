@@ -7,19 +7,60 @@
 //
 
 #import "DescriptionViewController.h"
+#import "SecretMenuViewController.h"
 
 @implementation DescriptionViewController
+@synthesize menuName = _menuName;
+
+
+@synthesize uranameText;
+
 
 -(void)viewDidLoad{
-    NSLog(@"%@",self.nameText);
-    self.nameLabel.text = self.nameText;
-    self.menuImageView.image= [UIImage imageNamed:self.nameText];
+    NSLog(@"Junro Comment -------------------------");
+    NSLog(@"DescriptionViewController--------------");
+    NSLog(@"menuName:%@",_menuName);
+    NSLog(@"Junro Comment -------------------------");
+
+    self.nameLabel.text = self.menuName;
+    self.menuImageView.image= [UIImage imageNamed:self.menuName];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Menu" ofType:@"plist"];
-    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
-    NSLog(@"%@",[dict objectForKey:self.nameText]);
-    self.description.text = [dict objectForKey:self.nameText];
+    // メニューリストのファイルを読み込む
+    NSString *path1 = [[NSBundle mainBundle] pathForResource:@"Menu" ofType:@"plist"];
+    NSDictionary *dict1 = [NSDictionary dictionaryWithContentsOfFile:path1];
+    
+    // TextViewの中身に説明文を設定する
+    self.description.text = [dict1 objectForKey:self.menuName];
+    
+    // 説明文が書かれているTextViewを、編集不可にする
+    self.description.editable = NO;
+    
+    NSString *path2 = [[NSBundle mainBundle] pathForResource:@"ura-Menu" ofType:@"plist"];
+    NSDictionary *dict2 = [NSDictionary dictionaryWithContentsOfFile:path2];
+    
+    uranameText = [dict2 objectForKey:self.menuName
+                   ];
+    
+    if (uranameText == nil) {
+        self.ura.hidden = YES;
+        NSLog(@"naine");
+        
+    } else {
+        self.ura.hidden = NO;
+        
+        NSLog(@"aruyo");
+    }
 }
+
+- (IBAction)showSecret:(id)sender{
+    SecretMenuViewController *secretVC = [self.storyboard instantiateViewControllerWithIdentifier:@"SecretMenuViewController"];
+    
+    // detailVC.nameText = nameText;
+    secretVC.menuName = _menuName;
+    
+    [self.navigationController pushViewController:secretVC animated:YES];
+}
+
 
 
 @end
