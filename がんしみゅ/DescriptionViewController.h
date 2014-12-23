@@ -12,7 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *menuImageView;
-@property (weak, nonatomic) IBOutlet UITextView *description;
+@property (weak, nonatomic) IBOutlet UITextView  *description;
 @property (weak, nonatomic) IBOutlet UIButton *ura;
 
 @property (weak,nonatomic) NSString *menuName;

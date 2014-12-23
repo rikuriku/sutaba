@@ -476,6 +476,29 @@
                       @"ホットティー.png",
                       @"マンゴーパッションティーフラペチーノ.png",
                       nil];
+    } else if ([self.menuName isEqualToString:@"今までの限定メニュー"]) {
+        dataArray = [[NSArray alloc] initWithObjects:
+                     @"ジンジャーブレッド ラテ",
+                     @"スノー メイプル トフィー フラペチーノ",
+                     @"スノー メイプル トフィー ラテ",
+                     @"クランベリー ブリス ホワイト チョコレート フラペチーノ",
+                     @"クランベリー ブリス ホワイト モカ",
+                     nil];
+        moneyArray = [[NSArray alloc] initWithObjects:
+                      @"Tall 320",
+                      @"Tall 400",
+                      @"Tall 400",
+                      @"Tall 330",
+                      @"Tall 450",
+                      nil];
+        imageArray = [[NSArray alloc] initWithObjects:
+                      @"ジンジャーブレッド ラテ.png",
+                      @"スノー メイプル トフィー フラペチーノ.png",
+                      @"スノー メイプル トフィー ラテ.png",
+                      @"クランベリー ブリス ホワイト チョコレート フラペチーノ.png",
+                      @"クランベリー ブリス ホワイト モカ.png",
+                      nil];
+
     } else if ([self.menuName isEqualToString:@"焼菓子&ベーカリー"]) {
         dataArray = [[NSArray alloc] initWithObjects:
                      @"アメリカンワッフル",
@@ -670,7 +693,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     self.menuName = [dataArray objectAtIndex:indexPath.row];
-    DescriptionViewController *descriptionVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DescriptionViewController"];
+    DescriptionViewController *descriptionVC = [self.storyboard instantiateViewControllerWithIdentifier:@"d"];
     descriptionVC.menuName = _menuName;
     [self.navigationController pushViewController:descriptionVC animated:YES];
 }

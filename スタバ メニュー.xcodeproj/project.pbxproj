@@ -21,6 +21,11 @@
 		1D349AE318694DD80049FCA7 /* sukiru.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1D349AE218694DD80049FCA7 /* sukiru.csv */; };
 		1D349AE618694E830049FCA7 /* setumei.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D349AE518694E830049FCA7 /* setumei.m */; };
 		1D3AD45B1914DF87003550F9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3AD45A1914DF87003550F9 /* DetailViewController.m */; };
+		1D4E8DD11A492DE10015898C /* ジンジャーブレッド ラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E8DD01A492DE10015898C /* ジンジャーブレッド ラテ.png */; };
+		1D4E8DD31A492E4C0015898C /* スノー メイプル トフィー フラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E8DD21A492E4C0015898C /* スノー メイプル トフィー フラペチーノ.png */; };
+		1D4E8DD51A492E7C0015898C /* スノー メイプル トフィー ラテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E8DD41A492E7C0015898C /* スノー メイプル トフィー ラテ.png */; };
+		1D4E8DD71A492EE80015898C /* クランベリー ブリス ホワイト チョコレート フラペチーノ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E8DD61A492EE80015898C /* クランベリー ブリス ホワイト チョコレート フラペチーノ.png */; };
+		1D4E8DD91A492F1E0015898C /* クランベリー ブリス ホワイト モカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E8DD81A492F1E0015898C /* クランベリー ブリス ホワイト モカ.png */; };
 		1D89093119D6D11A0049B442 /* ソイラテ　カロリー.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D89093019D6D11A0049B442 /* ソイラテ　カロリー.png */; };
 		1D89093319D6D2920049B442 /* バニララテ.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D89093219D6D2920049B442 /* バニララテ.png */; };
 		1D89093519D6D3680049B442 /* ジェイソンスペシャル.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D89093419D6D3680049B442 /* ジェイソンスペシャル.png */; };
@@ -177,6 +182,11 @@
 		1D349AE518694E830049FCA7 /* setumei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setumei.m; sourceTree = "<group>"; };
 		1D3AD4591914DF87003550F9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
 		1D3AD45A1914DF87003550F9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		1D4E8DD01A492DE10015898C /* ジンジャーブレッド ラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ジンジャーブレッド ラテ.png"; sourceTree = "<group>"; };
+		1D4E8DD21A492E4C0015898C /* スノー メイプル トフィー フラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スノー メイプル トフィー フラペチーノ.png"; sourceTree = "<group>"; };
+		1D4E8DD41A492E7C0015898C /* スノー メイプル トフィー ラテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スノー メイプル トフィー ラテ.png"; sourceTree = "<group>"; };
+		1D4E8DD61A492EE80015898C /* クランベリー ブリス ホワイト チョコレート フラペチーノ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "クランベリー ブリス ホワイト チョコレート フラペチーノ.png"; sourceTree = "<group>"; };
+		1D4E8DD81A492F1E0015898C /* クランベリー ブリス ホワイト モカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "クランベリー ブリス ホワイト モカ.png"; sourceTree = "<group>"; };
 		1D89093019D6D11A0049B442 /* ソイラテ　カロリー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ソイラテ　カロリー.png"; sourceTree = "<group>"; };
 		1D89093219D6D2920049B442 /* バニララテ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バニララテ.png"; sourceTree = "<group>"; };
 		1D89093419D6D3680049B442 /* ジェイソンスペシャル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ジェイソンスペシャル.png"; sourceTree = "<group>"; };
@@ -430,6 +440,8 @@
 				1DDBFCAE199DAC7E009D1DCF /* キャラメルソースをかけたカフェモカ.png */,
 				1DDBFCAF199DAC7E009D1DCF /* キャラメルフラペチーノ.png */,
 				1DDBFCB0199DAC7E009D1DCF /* キャラメルポップコーン＆プレッツェル.png */,
+				1D4E8DD61A492EE80015898C /* クランベリー ブリス ホワイト チョコレート フラペチーノ.png */,
+				1D4E8DD81A492F1E0015898C /* クランベリー ブリス ホワイト モカ.png */,
 				1DDBFCB1199DAC7E009D1DCF /* グラノラ.png */,
 				1DDBFCB2199DAC7E009D1DCF /* クロワッサンハム＆チーズ.png */,
 				1D25995D19C310DB006B4B5E /* ココアカプチーノ.png */,
@@ -445,11 +457,14 @@
 				1DDBFCBB199DAC7E009D1DCF /* シナモンロール.png */,
 				1DDBFCBC199DAC7E009D1DCF /* シュガードーナツ.png */,
 				1D89093419D6D3680049B442 /* ジェイソンスペシャル.png */,
+				1D4E8DD01A492DE10015898C /* ジンジャーブレッド ラテ.png */,
 				1D25994D19C2FA47006B4B5E /* スターバックスティラミス.png */,
 				1DDBFCBD199DAC7E009D1DCF /* スターバックスティーラテ.png */,
 				1DDBFCBF199DAC7E009D1DCF /* スターバックスラテ.png */,
 				1DDBFCC0199DAC7E009D1DCF /* スターバックスリザーブクローバー.png */,
 				1DDBFCC1199DAC7E009D1DCF /* スターバックスリザーブコーヒープレス.png */,
+				1D4E8DD41A492E7C0015898C /* スノー メイプル トフィー ラテ.png */,
+				1D4E8DD21A492E4C0015898C /* スノー メイプル トフィー フラペチーノ.png */,
 				1D25995F19C31191006B4B5E /* ゼブラマキアート.png */,
 				1DDBFCC2199DAC7E009D1DCF /* ソイラテ.png */,
 				1D89093019D6D11A0049B442 /* ソイラテ　カロリー.png */,
@@ -611,7 +626,7 @@
 			name = "スタバ メニューTests";
 			productName = "がんしみゅTests";
 			productReference = 1DCAC9EA184F43F200E1ACF1 /* スタバ メニューTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -722,13 +737,16 @@
 				1DDBFD3D199DAC7E009D1DCF /* ミラノエスプレッソ.png in Resources */,
 				1DDBFCFB199DAC7E009D1DCF /* エスプレッソフラペチーノ.png in Resources */,
 				1DDBFD1C199DAC7E009D1DCF /* チャイティーラテ.png in Resources */,
+				1D4E8DD31A492E4C0015898C /* スノー メイプル トフィー フラペチーノ.png in Resources */,
 				1DCAC9E1184F43F200E1ACF1 /* MainStoryboard.storyboard in Resources */,
 				1DDBFD3A199DAC7E009D1DCF /* マンゴーシフォンケーキ.png in Resources */,
 				1D25995E19C310DB006B4B5E /* ココアカプチーノ.png in Resources */,
 				1DDBFD0F199DAC7E009D1DCF /* シーザーサラダ.png in Resources */,
+				1D4E8DD91A492F1E0015898C /* クランベリー ブリス ホワイト モカ.png in Resources */,
 				1DFC4EE519AB0A9300BC7C78 /* エクストラコーヒー　ノンホイップ　ダークモカチップフラペチーノ.jpg in Resources */,
 				1DDBFD20199DAC7E009D1DCF /* チョコレートブラウニー.png in Resources */,
 				1D89093519D6D3680049B442 /* ジェイソンスペシャル.png in Resources */,
+				1D4E8DD51A492E7C0015898C /* スノー メイプル トフィー ラテ.png in Resources */,
 				1DDBFD0D199DAC7E009D1DCF /* サラダラップ チキンシーザー.png in Resources */,
 				1DDBFD0A199DAC7E009D1DCF /* ココア.png in Resources */,
 				1DDBFBD7199DA0A1009D1DCF /* チャンキークッキーフラペチーノ.png in Resources */,
@@ -744,7 +762,9 @@
 				1DDBFBE7199DA164009D1DCF /* アメリカンワッフル.png in Resources */,
 				1DDBFCF5199DAC7E009D1DCF /* アイスコーヒー with サマージェリー.png in Resources */,
 				D76781EA199CE96000A512EA /* キャラメルフラペチーノ.png in Resources */,
+				1D4E8DD11A492DE10015898C /* ジンジャーブレッド ラテ.png in Resources */,
 				1DDBFD18199DAC7E009D1DCF /* ソーセージパイ.png in Resources */,
+				1D4E8DD71A492EE80015898C /* クランベリー ブリス ホワイト チョコレート フラペチーノ.png in Resources */,
 				1DDBFD08199DAC7E009D1DCF /* コーヒープレス.png in Resources */,
 				1DDBFD1B199DAC7E009D1DCF /* チキンとチーズのタルティーヌ.png in Resources */,
 				1DDBFD40199DAC7E009D1DCF /* 京都抹茶ラテ.png in Resources */,
