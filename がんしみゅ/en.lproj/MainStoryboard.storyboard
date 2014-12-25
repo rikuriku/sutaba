@@ -32,6 +32,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
+                            <tableViewSection headerTitle="最新" id="VSr-G1-qGY">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="2xC-ao-mOv" imageView="0lq-1s-Dg4" rowHeight="98" style="IBUITableViewCellStyleDefault" id="1bj-9o-g6X">
+                                        <rect key="frame" x="0.0" y="704" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1bj-9o-g6X" id="pF3-e3-qej">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="今だけ限定" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2xC-ao-mOv">
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.35902205282724864" green="0.94298303823927487" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="スノー メイプル トフィー フラペチーノ.png" id="0lq-1s-Dg4">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.48750936369999998" blue="0.53256557329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="FDJ-jj-m9f" imageView="gpk-kc-zlg" rowHeight="99" style="IBUITableViewCellStyleDefault" id="D4m-ek-CTo">
+                                        <rect key="frame" x="0.0" y="704" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D4m-ek-CTo" id="3mG-ya-xcd">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="季節のおすすめ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FDJ-jj-m9f">
+                                                    <rect key="frame" x="73" y="0.0" width="212" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.48750936369999998" blue="0.53256557329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ストロベリー＆クッキーチーズケーキ.png" id="gpk-kc-zlg">
+                                                    <rect key="frame" x="15" y="0.0" width="43" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.068068167298165783" green="1" blue="0.24412245888020734" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                             <tableViewSection headerTitle="ドリンク" id="PrA-gV-UX2">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="4c3-yI-Ibi" imageView="vKL-U0-za9" rowHeight="46" style="IBUITableViewCellStyleDefault" id="0be-M7-ENu">
@@ -48,7 +96,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="キャラメルフラペチーノ.png" id="vKL-U0-za9">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="キャンディオレンジフラペチーノ.png" id="vKL-U0-za9">
                                                     <rect key="frame" x="15" y="0.0" width="45" height="45"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
@@ -66,7 +114,6 @@
                                                     <rect key="frame" x="73" y="0.0" width="212" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="エスプレッソコンパナ.png" id="PFK-FY-sj5">
@@ -300,7 +347,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="抹茶クリームフラペチーノ.png" id="Zfs-IM-r2c">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="抹茶ティーラテ.png" id="Zfs-IM-r2c">
                                                     <rect key="frame" x="15" y="0.0" width="43" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
@@ -363,7 +410,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ホット ティー.png" id="ZKb-2v-anw">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="スノー メイプル トフィー フラペチーノ.png" id="ZKb-2v-anw">
                                                     <rect key="frame" x="15" y="0.0" width="43" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
@@ -475,7 +522,7 @@
         <!--Description View Controller-->
         <scene sceneID="Ngj-46-c1j">
             <objects>
-                <viewController storyboardIdentifier="d" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kIZ-rZ-nJl" customClass="DescriptionViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DescriptionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kIZ-rZ-nJl" customClass="DescriptionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PZb-6c-6er"/>
                         <viewControllerLayoutGuide type="bottom" id="ljK-GN-iXd"/>
@@ -484,25 +531,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999964" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スタバ　ロゴ.png" translatesAutoresizingMaskIntoConstraints="NO" id="xz6-cE-8V3">
-                                <rect key="frame" x="46" y="336" width="242" height="188"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H5Z-Ev-7bi">
-                                <rect key="frame" x="20" y="287" width="281" height="261"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="VQO-C8-eNF">
                                 <rect key="frame" x="20" y="67" width="281" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ニューヨークチーズケーキ.png" translatesAutoresizingMaskIntoConstraints="NO" id="l8I-ls-2xH">
-                                <rect key="frame" x="56" y="112" width="208" height="160"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOm-I5-iOT">
-                                <rect key="frame" x="78" y="112" width="155" height="147"/>
+                                <rect key="frame" x="78" y="118" width="155" height="147"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -510,15 +545,28 @@
                                     <action selector="showSecret:" destination="kIZ-rZ-nJl" eventType="touchUpInside" id="791-ib-XM2"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ugC-ad-Fas">
+                                <rect key="frame" x="20" y="273" width="281" height="261"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.24999999999999967" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スタバ　ロゴ.png" translatesAutoresizingMaskIntoConstraints="NO" id="xz6-cE-8V3">
+                                <rect key="frame" x="28" y="104" width="273" height="256"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ニューヨークチーズケーキ.png" translatesAutoresizingMaskIntoConstraints="NO" id="l8I-ls-2xH">
+                                <rect key="frame" x="56" y="112" width="208" height="160"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="J7r-1g-QpU"/>
                     <connections>
-                        <outlet property="description" destination="H5Z-Ev-7bi" id="eg6-18-oum"/>
-                        <outlet property="menuImageView" destination="l8I-ls-2xH" id="Zsy-hn-rtt"/>
-                        <outlet property="nameLabel" destination="VQO-C8-eNF" id="pH4-TS-dSX"/>
-                        <outlet property="ura" destination="HOm-I5-iOT" id="w7h-zn-Kwp"/>
+                        <outlet property="descriptionText" destination="ugC-ad-Fas" id="e5x-IZ-s6K"/>
+                        <outlet property="menuImageView" destination="l8I-ls-2xH" id="glZ-yM-b4E"/>
+                        <outlet property="nameLabel" destination="VQO-C8-eNF" id="F5H-dm-M6X"/>
+                        <outlet property="ura" destination="HOm-I5-iOT" id="XaG-je-kZ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nCi-7C-68t" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -537,20 +585,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999964" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スタバ　ロゴ.png" translatesAutoresizingMaskIntoConstraints="NO" id="A9B-Vi-ZOu">
-                                <rect key="frame" x="47" y="336" width="240" height="188"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nUJ-iZ-pzy">
-                                <rect key="frame" x="20" y="272" width="281" height="261"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aHV-hJ-4pl">
                                 <rect key="frame" x="20" y="67" width="285" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nUJ-iZ-pzy">
+                                <rect key="frame" x="20" y="272" width="281" height="261"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999999999964" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スタバ　ロゴ.png" translatesAutoresizingMaskIntoConstraints="NO" id="A9B-Vi-ZOu">
+                                <rect key="frame" x="16" y="67" width="285" height="248"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ニューヨークチーズケーキ.png" translatesAutoresizingMaskIntoConstraints="NO" id="eZM-Pb-lSx">
                                 <rect key="frame" x="48" y="104" width="208" height="160"/>
                             </imageView>
@@ -558,7 +606,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="description" destination="nUJ-iZ-pzy" id="SgO-qx-TAU"/>
+                        <outlet property="descriptionText" destination="nUJ-iZ-pzy" id="Wjc-ti-A0t"/>
                         <outlet property="menuImageView" destination="eZM-Pb-lSx" id="6iE-QR-7Ie"/>
                         <outlet property="nameLabel" destination="aHV-hJ-4pl" id="Iz6-n4-92P"/>
                     </connections>
@@ -595,6 +643,7 @@
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5V-xv-Lzt">
                                             <rect key="frame" x="212" y="59" width="75" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -618,12 +667,14 @@
         <image name="エスプレッソマキアート.png" width="150" height="150"/>
         <image name="カフェミスト.png" width="330" height="330"/>
         <image name="カフェモカ.png" width="330" height="330"/>
-        <image name="キャラメルフラペチーノ.png" width="330" height="330"/>
         <image name="キャラメルマキアート.png" width="150" height="150"/>
+        <image name="キャンディオレンジフラペチーノ.png" width="306" height="299"/>
         <image name="シアトルラテ.png" width="150" height="150"/>
         <image name="スタバ　ロゴ.png" width="225" height="225"/>
         <image name="スターバックスティーラテ.png" width="150" height="150"/>
         <image name="スターバックスリザーブコーヒープレス.png" width="330" height="332"/>
+        <image name="ストロベリー＆クッキーチーズケーキ.png" width="640" height="640"/>
+        <image name="スノー メイプル トフィー フラペチーノ.png" width="640" height="640"/>
         <image name="ダークモカチップクリームフラペチーノ.png" width="330" height="330"/>
         <image name="ターキースイス＆ツナサラダ.png" width="150" height="150"/>
         <image name="デビルズケーキ.png" width="150" height="150"/>
@@ -633,7 +684,7 @@
         <image name="ハニーワッフル.png" width="150" height="150"/>
         <image name="フルーツジュースグレープフルーツ.png" width="150" height="150"/>
         <image name="ホット ティー.png" width="150" height="150"/>
-        <image name="抹茶クリームフラペチーノ.png" width="330" height="330"/>
+        <image name="抹茶ティーラテ.png" width="150" height="150"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

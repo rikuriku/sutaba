@@ -21,7 +21,7 @@
     NSLog(@"DescriptionViewController--------------");
     NSLog(@"menuName:%@",_menuName);
     NSLog(@"Junro Comment -------------------------");
-
+    
     self.nameLabel.text = self.menuName;
     self.menuImageView.image= [UIImage imageNamed:self.menuName];
     
@@ -30,10 +30,10 @@
     NSDictionary *dict1 = [NSDictionary dictionaryWithContentsOfFile:path1];
     
     // TextViewの中身に説明文を設定する
-    self.description.text = [dict1 objectForKey:self.menuName];
+    self.descriptionText.text = [dict1 objectForKey:self.menuName];
     
     // 説明文が書かれているTextViewを、編集不可にする
-    self.description.editable = NO;
+    self.descriptionText.editable = NO;
     
     NSString *path2 = [[NSBundle mainBundle] pathForResource:@"ura-Menu" ofType:@"plist"];
     NSDictionary *dict2 = [NSDictionary dictionaryWithContentsOfFile:path2];
@@ -50,6 +50,8 @@
         
         NSLog(@"aruyo");
     }
+    
+     
 }
 
 - (IBAction)showSecret:(id)sender{
@@ -59,6 +61,7 @@
     secretVC.menuName = _menuName;
     
     [self.navigationController pushViewController:secretVC animated:YES];
+    
 }
 
 

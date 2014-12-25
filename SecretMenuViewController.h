@@ -12,7 +12,7 @@
 
 @property IBOutlet UILabel *nameLabel;
 @property IBOutlet UIImageView *menuImageView;
-@property IBOutlet UITextView *description;
+@property IBOutlet UITextView *descriptionText;
 
 @property (weak,nonatomic) NSString *menuName;
 

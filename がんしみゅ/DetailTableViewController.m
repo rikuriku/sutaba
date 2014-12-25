@@ -24,15 +24,85 @@
                      @"1",
                      @"2",
                      nil];
-    } else if ([self.menuName isEqualToString:@"今期限定メニュー"]) {
+    } else if ([self.menuName isEqualToString:@"今だけ限定"]) {
         dataArray = [[NSArray alloc] initWithObjects:
-                     @"ストロベリーディライトフラペチーノ",
-                     @"開発中、、、",
+                     @"クランベリー ブリス ホワイト チョコレート フラペチーノ",
+                     @"クランベリー ブリス ホワイト モカ",
+                     @"ジンジャーブレッド ラテ",
+                     @"スノー メイプル トフィー フラペチーノ",
+                     @"スノー メイプル トフィー ラテ",
+                     @"キャンディオレンジフラペチーノ",
+                     @"キャンディオレンジラテ",
+                     
+                     
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
-                      @"590",
-                      @"5",
+                      @"Tall ¥520",
+                      @"Tall ¥460",
+                      @"Tall ¥450",
+                      @"Tall ¥520",
+                      @"Tall ¥460",
+                      @"Tall ¥490",
+                      @"Tall ¥470",
                       nil];
+        imageArray = [[NSArray alloc] initWithObjects:
+                      @"クランベリー ブリス ホワイト チョコレート フラペチーノ.png",
+                      @"クランベリー ブリス ホワイト モカ.png",
+                      @"ジンジャーブレッド ラテ.png",
+                      @"スノー メイプル トフィー フラペチーノ.png",
+                      @"スノー メイプル トフィー ラテ.png",
+                      @"キャンディオレンジフラペチーノ.png",
+                      @"キャンディオレンジラテ.png",
+                      
+                      nil];
+    } else if ([self.menuName isEqualToString:@"季節のおすすめ"]) {
+        dataArray = [[NSArray alloc] initWithObjects:
+                     @"ストロベリー＆クッキーチーズケーキ",
+                     @"オレンジクランベリースコーン",
+                     @"キャラメルソルティクリームドーナツ",
+                     @"メイプルビスケット",
+                     @"To Go カップ クッキー",
+                     @"To Go カップ シナモンロール",
+                     @"チョコレートケーキ",
+                     @"リッチミルクシフォンケーキ",
+                     @"クランベリーブリスバー",
+                     @"フィローネ ホリデーチキン",
+                     @"ベーグルサンド ローストターキー クランベリーソース",
+                     @"ホットサラダラップ スピナッチ＆チーズ",
+                     @"クランベリーブリスバー",
+                     nil];
+        moneyArray = [[NSArray alloc] initWithObjects:
+                      @"Tall ¥520",
+                      @"Tall ¥460",
+                      @"Tall ¥450",
+                      @"Tall ¥520",
+                      @"Tall ¥460",
+                      @"Tall ¥490",
+                      @"Tall ¥470",
+                      @"Tall ¥520",
+                      @"Tall ¥520",
+                      @"Tall ¥520",
+                      @"Tall ¥520",
+                      @"Tall ¥520",
+                      @"Tall ¥520",
+                      nil];
+        imageArray = [[NSArray alloc] initWithObjects:
+                      @"ストロベリー＆クッキーチーズケーキ.png",
+                      @"オレンジクランベリースコーン.png",
+                      @"キャラメルソルティクリームドーナツ.png",
+                      @"メイプルビスケット.png",
+                      @"To Go カップ クッキー.png",
+                      @"To Go カップ シナモンロール.png",
+                      @"Coffee & Espresso ケーキ ホワイトモカ.png",
+                      @"リッチミルクシフォンケーキ.png",
+                      @"クランベリーブリスバー.png",
+                      @"フィローネ ホリデーチキン.png",
+                      @"ベーグルサンド ローストターキー クランベリーソース.png",
+                       @"ホットサラダラップ スピナッチ＆チーズ.png",
+                       @"クランベリーブリスバー.png",
+                      
+                      nil];
+
     } else if ([self.menuName isEqualToString:@"フラペチーノ"]) {
         dataArray = [[NSArray alloc] initWithObjects:
                      @"キャラメルフラペチーノ",//////
@@ -42,6 +112,8 @@
                      @"バニラクリームフラペチーノ",
                      @"抹茶クリームフラペチーノ",//
                      @"マンゴーパッションティーフラペチーノ",
+                     @"クランベリー ブリス ホワイト チョコレート フラペチーノ",
+                     
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
                       @"Tall 430",
@@ -51,6 +123,7 @@
                       @"Tall 450",
                       @"Tall 450",
                       @"Tall 450",
+                      @"Tall 520",
                       nil];
         imageArray = [[NSArray alloc] initWithObjects:
                       @"キャラメルフラペチーノ.png",
@@ -60,6 +133,7 @@
                       @"バニラクリームフラペチーノ.png",
                       @"抹茶クリームフラペチーノ.png",
                       @"マンゴーパッションティーフラペチーノ.png",
+                      @"クランベリー ブリス ホワイト チョコレート フラペチーノ.png",
                       nil];
         
         
@@ -478,27 +552,37 @@
                       nil];
     } else if ([self.menuName isEqualToString:@"今までの限定メニュー"]) {
         dataArray = [[NSArray alloc] initWithObjects:
+                     @"クランベリー ブリス ホワイト チョコレート フラペチーノ",
+                     @"クランベリー ブリス ホワイト モカ",
                      @"ジンジャーブレッド ラテ",
                      @"スノー メイプル トフィー フラペチーノ",
                      @"スノー メイプル トフィー ラテ",
-                     @"クランベリー ブリス ホワイト チョコレート フラペチーノ",
-                     @"クランベリー ブリス ホワイト モカ",
+                     @"キャンディオレンジフラペチーノ",
+                     @"キャンディオレンジラテ",
+                     
+                     
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
-                      @"Tall 320",
-                      @"Tall 400",
-                      @"Tall 400",
-                      @"Tall 330",
-                      @"Tall 450",
+                      @"Tall ¥520",
+                      @"Tall ¥460",
+                      @"Tall ¥450",
+                      @"Tall ¥520",
+                      @"Tall ¥460",
+                      @"Tall ¥490",
+                      @"Tall ¥470",
                       nil];
         imageArray = [[NSArray alloc] initWithObjects:
+                      @"クランベリー ブリス ホワイト チョコレート フラペチーノ.png",
+                      @"クランベリー ブリス ホワイト モカ.png",
                       @"ジンジャーブレッド ラテ.png",
                       @"スノー メイプル トフィー フラペチーノ.png",
                       @"スノー メイプル トフィー ラテ.png",
-                      @"クランベリー ブリス ホワイト チョコレート フラペチーノ.png",
-                      @"クランベリー ブリス ホワイト モカ.png",
-                      nil];
+                      @"キャンディオレンジフラペチーノ.png",
+                      @"キャンディオレンジラテ.png",
+                      
+                                            nil];
 
+    
     } else if ([self.menuName isEqualToString:@"焼菓子&ベーカリー"]) {
         dataArray = [[NSArray alloc] initWithObjects:
                      @"アメリカンワッフル",
@@ -517,6 +601,14 @@
                      @"ブルーベリー＆チーズクリームドーナツ",
                      @"ホワイトチョコレートマカダミアクッキー",
                      @"レモンポピーシードスコーン",
+                     @"きのこ＆モッツァレラタルティーヌ",
+                     @"チーズ＆クリームタルティーヌ",
+                     @"アーモンドブリオッシュトースト",
+                     @"チョコレートクリームドーナツ",
+                     @"メイプルビスケット",
+                     @"キャラメルソルティクリームドーナツ",
+                     @"オレンジクランベリースコーン",
+                     
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
                       @"230",
@@ -535,6 +627,13 @@
                       @"230",
                       @"190",
                       @"220",
+                      @"270",
+                      @"270",
+                      @"230",
+                      @"240",
+                      @"240",
+                      @"240",
+                      @"230",
                       nil];
         imageArray = [[NSArray alloc] initWithObjects:
                       @"アメリカンワッフル.png",
@@ -553,6 +652,13 @@
                       @"ブルーベリー＆チーズクリームドーナツ.png",
                       @"ホワイトチョコレートマカダミアクッキー.png",
                       @"レモンポピーシードスコーン.png",
+                      @"きのこ＆モッツァレラタルティーヌ.png",
+                      @"チーズ＆クリームタルティーヌ.png",
+                      @"アーモンドブリオッシュトースト.png",
+                      @"チョコレートクリームドーナツ.png",
+                      @"メイプルビスケット.png",
+                      @"キャラメルソルティクリームドーナツ.png",
+                      @"オレンジクランベリースコーン.png",
 
                       nil];
     } else if ([self.menuName isEqualToString:@"デザート＆ケーキー"]) {
@@ -565,6 +671,12 @@
                      @"Coffee&Espresso カフェモカ",
                      @"Coffee&Espresso キャラメルマキアート",
                      @"Coffee&Espresso レモン",
+                     @"ストロベリー＆クッキーチーズケーキ",
+                     @"Coffee & Espresso ケーキ ホワイトモカ",
+                     @"チョコレートケーキ",
+                     @"リッチミルクシフォンケーキ",
+                     @"クランベリーブリスバー",
+                     @"パンプキンパイ",
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
                       @"400",
@@ -575,6 +687,12 @@
                       @"330",
                       @"330",
                       @"330",
+                      @"440",
+                      @"350",
+                      @"420",
+                      @"380",
+                      @"270",
+                      @"420",
                       nil];
         imageArray = [[NSArray alloc] initWithObjects:
                       @"スターバックスティラミス.png",
@@ -585,6 +703,12 @@
                       @"Coffee&Espresso カフェモカ.png",
                       @"Coffee&Espresso キャラメルマキアート.png",
                       @"Coffee&Espresso レモン.png",
+                      @"ストロベリー＆クッキーチーズケーキ.png",
+                      @"Coffee & Espresso ケーキ ホワイトモカ.png",
+                      @"チョコレートケーキ.png",
+                      @"リッチミルクシフォンケーキ.png",
+                      @"クランベリーブリスバー.png",
+                      @"パンプキンパイ.png",
                       nil];
 
     } else if ([self.menuName isEqualToString:@"サンドウィッチ&サラダ"]) {
@@ -602,6 +726,14 @@
                      @"ベーコンとほうれん草のキッシュ",
                      @"ホットベーグルサンドベーコン＆エッグ",
                      @"ミックスサンドイッチ",
+                     @"グレインブレッド バジルチキン＆アボカドシュリンプ",
+                     @"グレインブレッド ＢＬＴ＆エッグ",
+                     @"なすときのこのキッシュ",
+                     @"フィローネ ツナメルト",
+                     @"フィローネ ハム＆マリボーチーズ",
+                     @"ホットサラダラップ スピナッチ＆チーズ",
+                     @"ベーグルサンド ローストターキー クランベリーソース",
+                     @"フィローネ ホリデーチキン",
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
                       @"400",
@@ -617,6 +749,14 @@
                       @"310",
                       @"360",
                       @"400",
+                      @"400",
+                      @"400",
+                      @"400",
+                      @"320",
+                      @"420",
+                      @"420",
+                      @"380",
+                      @"450",
                       nil];
         imageArray = [[NSArray alloc] initWithObjects:
                       @"ターキースイス＆ツナサラダ.png",
@@ -632,6 +772,14 @@
                       @"ベーコンとほうれん草のキッシュ.png",
                       @"ホットベーグルサンドベーコン＆エッグ.png",
                       @"ミックスサンドイッチ.png",
+                      @"グレインブレッド バジルチキン＆アボカドシュリンプ.png",
+                      @"グレインブレッド ＢＬＴ＆エッグ.png",
+                      @"なすときのこのキッシュ.png",
+                      @"フィローネ ツナメルト.png",
+                      @"フィローネ ハム＆マリボーチーズ.png",
+                      @"ホットサラダラップ スピナッチ＆チーズ.png",
+                      @"ベーグルサンド ローストターキー クランベリーソース.png",
+                      @"フィローネ ホリデーチキン.png",
                       nil];
     } else if ([self.menuName isEqualToString:@"パッケージフード"]) {
         dataArray = [[NSArray alloc] initWithObjects:
@@ -640,6 +788,8 @@
                      @"チョコレートブラウニー",
                      @"ハニーワッフル",
                      @"バナナブレッド",
+                     @"To Go カップ シナモンロール",
+                     @"To Go カップ クッキー",
                      nil];
         moneyArray = [[NSArray alloc] initWithObjects:
                       @"280",
@@ -647,6 +797,8 @@
                       @"200",
                       @"140",
                       @"210",
+                      @"480",
+                      @"480",
                       nil];
         imageArray = [[NSArray alloc] initWithObjects:
                       @"キャラメルポップコーン＆プレッツェル.png",
@@ -654,6 +806,8 @@
                       @"チョコレートブラウニー.png",
                       @"ハニーワッフル.png",
                       @"バナナブレッド.png",
+                      @"To Go カップ シナモンロール.png",
+                      @"To Go カップ クッキー.png",
                       nil];
     } else {
         dataArray = [[NSArray alloc] initWithObjects:@"", nil];
@@ -682,6 +836,10 @@
     idimageview.image=[UIImage imageNamed:[imageArray objectAtIndex:indexPath.row]];
     UILabel *idkinngaku = (UILabel*)[cell viewWithTag:3];
     idkinngaku.text = [moneyArray objectAtIndex:indexPath.row];
+    //TODO: 特定のCellの色を変える
+    
+    
+    //Cellの背景変えるとかでぐぐる
 //    cell.textLabel.text =[dataArray objectAtIndex:indexPath.row];
 //    if ([cell.textLabel.text length] >25) {
 //        cell.textLabel.text = [NSString stringWithFormat:@"%@...", [cell.textLabel.text substringToIndex:12]];
@@ -693,9 +851,11 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     self.menuName = [dataArray objectAtIndex:indexPath.row];
-    DescriptionViewController *descriptionVC = [self.storyboard instantiateViewControllerWithIdentifier:@"d"];
+    DescriptionViewController *descriptionVC = [self.storyboard instantiateViewControllerWithIdentifier:@"DescriptionViewController"];
     descriptionVC.menuName = _menuName;
+    
     [self.navigationController pushViewController:descriptionVC animated:YES];
+//    [self performSegueWithIdentifier:@"toDes" sender:self];
 }
 
 -(IBAction)goBack:(UIStoryboardSegue*)sender

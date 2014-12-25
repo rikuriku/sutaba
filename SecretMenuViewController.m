@@ -35,10 +35,10 @@
     NSDictionary *dict2 = [NSDictionary dictionaryWithContentsOfFile:path2];
     
     // TextViewの中身に説明文を設定する
-    self.description.text = [dict2 objectForKey:self.menuName];
+    self.descriptionText.text = [dict2 objectForKey:self.menuName];
     
     // 説明文が書かれているTextViewを、編集不可にする
-    self.description.editable = NO;
+    self.descriptionText.editable = NO;
     
     self.nameLabel.text = self.menuName;
     //self.menuImageView.image= [UIImage imageNamed:self.menuName];
